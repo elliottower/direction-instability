@@ -1,0 +1,12 @@
+Pre-registration SHA256 hashes
+Commit: 1dc20a2 (2026-07-04T19:17:37-04:00)
+---
+
+# Scorer
+30e07ff0fb0fbe4a62df73c67ebdab1bef8c444bac549b4c26dcfbe15b217bc4  geometry/drug_transport.py
+
+# Frozen labels
+e6d73384c5bbc501ee15f621aaa258f02f38ee0d7a9603b6c820bec3e0489d52  data/frozen_drug_labels.json
+
+# Hypotheses
+54c2a964b75bf63768002aef033825a8c89a66efa9fe7ba0d73c248eeae65277  PREREGISTRATION.md

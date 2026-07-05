@@ -28,3 +28,14 @@ results/*.pdf
 *~
 .ipynb_checkpoints/
 wandb/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# Old drafts
+drafts/
