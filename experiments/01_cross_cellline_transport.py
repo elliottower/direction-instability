@@ -192,42 +192,47 @@ def load_frozen_labels(labels_path: Path) -> dict[str, dict]:
     return lookup
 
 
-def permutation_null(
-    signatures: dict[str, np.ndarray],
-    n_perms: int = 1000,
-    rng: np.random.Generator | None = None,
-) -> dict:
-    """Permutation null for direction instability.
+def build_population_null(
+    all_drug_results: list[dict],
+    n_bins: int = 5,
+) -> dict[int, np.ndarray]:
+    """Build empirical null distribution of direction instability by cell-line count.
 
-    Shuffles cell-line labels and recomputes direction instability.
-    The observed value should exceed the null for drugs with genuinely
-    context-dependent mechanisms.
+    The right null: for a drug profiled in N cell lines, what direction
+    instability would you expect by chance? Compare against the population
+    of all drugs with similar N. A drug is genuinely transporting only if
+    its instability is unusually LOW for its cell-line count.
+
+    Returns {n_bin: array of instabilities} where n_bin is a binned cell-line count.
     """
-    if rng is None:
-        rng = np.random.default_rng()
-
-    from geometry.drug_transport import direction_stability
-
-    observed = direction_stability(signatures)["direction_instability"]
-
-    names = sorted(signatures.keys())
-    vecs = [signatures[n] for n in names]
-    null_dist = np.zeros(n_perms)
-    for p in range(n_perms):
-        perm = rng.permutation(len(vecs))
-        shuffled = {names[i]: vecs[perm[i]] for i in range(len(names))}
-        null_dist[p] = direction_stability(shuffled)["direction_instability"]
-
-    p_value = float(np.mean(null_dist >= observed))
-    return {
-        "observed": observed,
-        "null_mean": float(np.mean(null_dist)),
-        "null_std": float(np.std(null_dist)),
-        "p_value_permutation": p_value,
-    }
+    df = pd.DataFrame(all_drug_results)
+    bins = pd.qcut(df["n_cell_lines"], q=n_bins, duplicates="drop")
+    null_by_bin = {}
+    for bin_label, group in df.groupby(bins):
+        null_by_bin[bin_label] = group["direction_instability"].values
+    return null_by_bin
 
 
-def run_real(data_path: Path, metadata_dir: Path, n_perms: int = 200) -> None:
+def population_p_value(
+    instability: float,
+    n_cell_lines: int,
+    all_instabilities: np.ndarray,
+    all_n_cell_lines: np.ndarray,
+) -> float:
+    """P-value: fraction of drugs with similar cell-line count that are MORE transporting.
+
+    Low p-value = this drug is unusually stable (transporting) for its coverage.
+    """
+    similar = all_instabilities[
+        (all_n_cell_lines >= n_cell_lines * 0.5) &
+        (all_n_cell_lines <= n_cell_lines * 2.0)
+    ]
+    if len(similar) < 10:
+        similar = all_instabilities
+    return float(np.mean(similar <= instability))
+
+
+def run_real(data_path: Path, metadata_dir: Path) -> None:
     """Run transport analysis on real LINCS data (extracted .npz)."""
     print(f"[{timestamp()}] Loading extracted signatures from {data_path}")
 
@@ -252,11 +257,10 @@ def run_real(data_path: Path, metadata_dir: Path, n_perms: int = 200) -> None:
     drugs = target_siginfo["pert_iname"].unique()
     print(f"  Drugs in extracted data: {len(drugs)}")
 
-    rng = np.random.default_rng(42)
+    sig_id_to_row = {sid: i for i, sid in enumerate(sig_ids)}
     results = []
     for drug_name in tqdm(drugs, desc="Computing transport metrics"):
         drug_sigs = target_siginfo[target_siginfo["pert_iname"] == drug_name]
-        sig_id_to_row = {sid: i for i, sid in enumerate(sig_ids)}
 
         if "distil_ss" in drug_sigs.columns:
             best = drug_sigs.loc[drug_sigs.groupby("cell_id")["distil_ss"].idxmax()]
@@ -282,13 +286,16 @@ def run_real(data_path: Path, metadata_dir: Path, n_perms: int = 200) -> None:
         metrics["clinical_phase"] = label.get("clinical_phase")
         metrics["disease_area"] = label.get("disease_area")
 
-        # Permutation null (subsample for speed)
-        if n_perms > 0 and len(cell_sigs) >= 4:
-            perm = permutation_null(cell_sigs, n_perms=n_perms, rng=rng)
-            metrics["p_value_permutation"] = perm["p_value_permutation"]
-            metrics["null_mean"] = perm["null_mean"]
-
         results.append(metrics)
+
+    # Population null: is this drug unusually transporting for its cell-line count?
+    all_instabilities = np.array([r["direction_instability"] for r in results])
+    all_n_cl = np.array([r["n_cell_lines"] for r in results])
+    for r in results:
+        r["p_value_population"] = population_p_value(
+            r["direction_instability"], r["n_cell_lines"],
+            all_instabilities, all_n_cl,
+        )
 
     results_dir = Path("results/01_cross_cellline")
     results_dir.mkdir(parents=True, exist_ok=True)
@@ -319,9 +326,10 @@ def run_real(data_path: Path, metadata_dir: Path, n_perms: int = 200) -> None:
 
     # Summary of pre-registered hypotheses
     print(f"\n[{timestamp()}] Pre-registered hypothesis results:")
-    if "p_value_permutation" in df.columns:
-        sig_perm = (df["p_value_permutation"] < 0.05).sum()
-        print(f"  Drugs with significant permutation test (p<0.05): {sig_perm} / {len(df)}")
+    if "p_value_population" in df.columns:
+        for threshold in [0.01, 0.05, 0.10]:
+            sig = (df["p_value_population"] < threshold).sum()
+            print(f"  Drugs unusually transporting (p<{threshold}): {sig} / {len(df)}")
 
     print(f"\n[{timestamp()}] Done. Results in {results_dir}/")
 
@@ -373,7 +381,6 @@ def main():
     parser.add_argument("--data", type=Path, help="Path to extracted .npz (for --real)")
     parser.add_argument("--data-dir", type=Path, default=Path("data"), help="Directory for metadata")
     parser.add_argument("--n-drugs", type=int, default=200, help="Number of synthetic drugs")
-    parser.add_argument("--n-perms", type=int, default=200, help="Permutation null iterations")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for synthetic data")
 
     args = parser.parse_args()
@@ -385,7 +392,7 @@ def main():
     elif args.real:
         if args.data is None:
             parser.error("--real requires --data path to extracted .npz")
-        run_real(args.data, args.data_dir, n_perms=args.n_perms)
+        run_real(args.data, args.data_dir)
 
 
 if __name__ == "__main__":

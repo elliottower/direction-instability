@@ -1,0 +1,148 @@
+{
+  "n_cell_lines": 71,
+  "h13_same_tissue_mean": 0.040153536945581436,
+  "h13_diff_tissue_mean": 0.019615525379776955,
+  "h13_p": 7.256208632839301e-20,
+  "h14_top_cross_tissue": [
+    {
+      "c1": "HEPG2",
+      "c2": "U266",
+      "t1": "liver",
+      "t2": "blood",
+      "sim": 0.4838709533214569
+    },
+    {
+      "c1": "JURKAT",
+      "c2": "U266",
+      "t1": "haematopoietic and lymphoid tissue",
+      "t2": "blood",
+      "sim": 0.35483869910240173
+    },
+    {
+      "c1": "A375",
+      "c2": "JURKAT",
+      "t1": "skin",
+      "t2": "haematopoietic and lymphoid tissue",
+      "sim": 0.32258063554763794
+    },
+    {
+      "c1": "A375",
+      "c2": "U266",
+      "t1": "skin",
+      "t2": "blood",
+      "sim": 0.29032257199287415
+    },
+    {
+      "c1": "HA1E",
+      "c2": "U266",
+      "t1": "kidney",
+      "t2": "blood",
+      "sim": 0.25806450843811035
+    },
+    {
+      "c1": "HCC515",
+      "c2": "U266",
+      "t1": "lung",
+      "t2": "blood",
+      "sim": 0.22580644488334656
+    },
+    {
+      "c1": "HEPG2",
+      "c2": "JURKAT",
+      "t1": "liver",
+      "t2": "haematopoietic and lymphoid tissue",
+      "sim": 0.19354838132858276
+    },
+    {
+      "c1": "JURKAT",
+      "c2": "PC3",
+      "t1": "haematopoietic and lymphoid tissue",
+      "t2": "prostate",
+      "sim": 0.19354838132858276
+    },
+    {
+      "c1": "HUH7",
+      "c2": "MCF7",
+      "t1": "liver",
+      "t2": "breast",
+      "sim": 0.190476194024086
+    },
+    {
+      "c1": "ASC",
+      "c2": "NKDBA",
+      "t1": "adipose",
+      "t2": "kidney",
+      "sim": 0.1621621549129486
+    },
+    {
+      "c1": "A549",
+      "c2": "U266",
+      "t1": "lung",
+      "t2": "blood",
+      "sim": 0.16129031777381897
+    },
+    {
+      "c1": "HA1E",
+      "c2": "JURKAT",
+      "t1": "kidney",
+      "t2": "haematopoietic and lymphoid tissue",
+      "sim": 0.16129031777381897
+    },
+    {
+      "c1": "HT29",
+      "c2": "U266",
+      "t1": "large intestine",
+      "t2": "blood",
+      "sim": 0.16129031777381897
+    },
+    {
+      "c1": "MDAMB231",
+      "c2": "PC3",
+      "t1": "breast",
+      "t2": "prostate",
+      "sim": 0.15714286267757416
+    },
+    {
+      "c1": "HCC515",
+      "c2": "HUH7",
+      "t1": "lung",
+      "t2": "liver",
+      "sim": 0.14516128599643707
+    },
+    {
+      "c1": "A549",
+      "c2": "JURKAT",
+      "t1": "lung",
+      "t2": "haematopoietic and lymphoid tissue",
+      "sim": 0.12903225421905518
+    },
+    {
+      "c1": "HCC515",
+      "c2": "JURKAT",
+      "t1": "lung",
+      "t2": "haematopoietic and lymphoid tissue",
+      "sim": 0.12903225421905518
+    },
+    {
+      "c1": "HT29",
+      "c2": "JURKAT",
+      "t1": "large intestine",
+      "t2": "haematopoietic and lymphoid tissue",
+      "sim": 0.12903225421905518
+    },
+    {
+      "c1": "PC3",
+      "c2": "U266",
+      "t1": "prostate",
+      "t2": "blood",
+      "sim": 0.12903225421905518
+    },
+    {
+      "c1": "HS578T",
+      "c2": "PC3",
+      "t1": "breast",
+      "t2": "prostate",
+      "sim": 0.12857143580913544
+    }
+  ]
+}

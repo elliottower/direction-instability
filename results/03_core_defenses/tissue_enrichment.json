@@ -1,0 +1,1150 @@
+[
+  {
+    "drug": "trichostatin-a",
+    "n_comps": 4,
+    "n_cells": 64,
+    "moa": "HDAC inhibitor",
+    "enrichments": [
+      {
+        "tissue": "haematopoietic and lymphoid tissue",
+        "p": 0.038978494623655914,
+        "in_comp": 2,
+        "total_comp": 3
+      }
+    ]
+  },
+  {
+    "drug": "daunorubicin",
+    "n_comps": 2,
+    "n_cells": 19,
+    "moa": "RNA synthesis inhibitor|topoisomerase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "mitoxantrone",
+    "n_comps": 2,
+    "n_cells": 11,
+    "moa": "topoisomerase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "LY-294002",
+    "n_comps": 4,
+    "n_cells": 12,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "JAK3-inhibitor-VI",
+    "n_comps": 5,
+    "n_cells": 13,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "ER-27319",
+    "n_comps": 5,
+    "n_cells": 13,
+    "moa": "mediator release inhibitor|SYK inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "digoxin",
+    "n_comps": 3,
+    "n_cells": 13,
+    "moa": "ATPase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "homoharringtonine",
+    "n_comps": 2,
+    "n_cells": 13,
+    "moa": "protein synthesis inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "strophanthidin",
+    "n_comps": 4,
+    "n_cells": 14,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "camptothecin",
+    "n_comps": 3,
+    "n_cells": 12,
+    "moa": "topoisomerase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "cymarin",
+    "n_comps": 4,
+    "n_cells": 13,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "cinobufagin",
+    "n_comps": 4,
+    "n_cells": 13,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "aminopurvalanol-a",
+    "n_comps": 4,
+    "n_cells": 15,
+    "moa": "CDK inhibitor|tyrosine kinase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "PCI-24781",
+    "n_comps": 4,
+    "n_cells": 13,
+    "moa": "HDAC inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "cephaeline",
+    "n_comps": 3,
+    "n_cells": 12,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "anisomycin",
+    "n_comps": 2,
+    "n_cells": 14,
+    "moa": "DNA synthesis inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "puromycin",
+    "n_comps": 5,
+    "n_cells": 14,
+    "moa": "protein synthesis inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "MG-132",
+    "n_comps": 2,
+    "n_cells": 16,
+    "moa": "proteasome inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "dactinomycin",
+    "n_comps": 3,
+    "n_cells": 12,
+    "moa": "RNA polymerase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "scriptaid",
+    "n_comps": 3,
+    "n_cells": 15,
+    "moa": "HDAC inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "CGP-71683",
+    "n_comps": 5,
+    "n_cells": 13,
+    "moa": "neuropeptide receptor antagonist",
+    "enrichments": []
+  },
+  {
+    "drug": "ouabain",
+    "n_comps": 4,
+    "n_cells": 14,
+    "moa": "ATPase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "doxorubicin",
+    "n_comps": 2,
+    "n_cells": 12,
+    "moa": "topoisomerase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "proscillaridin",
+    "n_comps": 4,
+    "n_cells": 13,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "mitomycin-c",
+    "n_comps": 3,
+    "n_cells": 13,
+    "moa": "DNA alkylating agent|DNA synthesis inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "selamectin",
+    "n_comps": 4,
+    "n_cells": 11,
+    "moa": "nematocide",
+    "enrichments": []
+  },
+  {
+    "drug": "digitoxin",
+    "n_comps": 3,
+    "n_cells": 13,
+    "moa": "ATPase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "epirubicin",
+    "n_comps": 2,
+    "n_cells": 15,
+    "moa": "topoisomerase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "bisindolylmaleimide-ix",
+    "n_comps": 2,
+    "n_cells": 12,
+    "moa": "PKC inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "rhodomyrtoxin-b",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "etoposide",
+    "n_comps": 5,
+    "n_cells": 11,
+    "moa": "topoisomerase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "periplocymarin",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "calyculin",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "helveticoside",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "cercosporin",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "dubinidine",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "pepstatin",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": "aspartic protease inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "digitoxigenin",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": "ATPase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "MK-212",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "narciclasine",
+    "n_comps": 3,
+    "n_cells": 47,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "ISOX",
+    "n_comps": 5,
+    "n_cells": 54,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A09719808",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A24021119",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A43126523",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A47816767",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K05153001",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K37940862",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K39345836",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K73610817",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K84203638",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K85275009",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K95196255",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A58924247",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K58214070",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A31946439",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K07259155",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K10361096",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K23165181",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K24156250",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K32944375",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K35046132",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K44366801",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "VU-0418946-1",
+    "n_comps": 4,
+    "n_cells": 14,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K54687541",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K58853583",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "KU-C104135",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K66884694",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "KU-C104495",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "VU-0410183-2",
+    "n_comps": 5,
+    "n_cells": 14,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K77547509",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "VU-0420364-1",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "VU-0418934-2",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K95858622",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K10846167",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K53780220",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K03829970",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K14027855",
+    "n_comps": 3,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K26304855",
+    "n_comps": 2,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "KU-C104337",
+    "n_comps": 3,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K52321331",
+    "n_comps": 2,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K82732294",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K83670234",
+    "n_comps": 3,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K89224880",
+    "n_comps": 5,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K95138506",
+    "n_comps": 2,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A18411371",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A18725729",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A37735495",
+    "n_comps": 2,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A61825514",
+    "n_comps": 5,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A68065211",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "pitavastatin",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": "HMGCR inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K53423944",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K53932786",
+    "n_comps": 2,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K65955264",
+    "n_comps": 5,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K78385490",
+    "n_comps": 2,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K99633092",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-U86222656",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "topotecan",
+    "n_comps": 5,
+    "n_cells": 13,
+    "moa": "topoisomerase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "thiostrepton",
+    "n_comps": 5,
+    "n_cells": 14,
+    "moa": "FOXM1 inhibitor|protein synthesis inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "GP-42",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "panobinostat",
+    "n_comps": 3,
+    "n_cells": 15,
+    "moa": "HDAC inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K08307026",
+    "n_comps": 3,
+    "n_cells": 13,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K61717269",
+    "n_comps": 4,
+    "n_cells": 13,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "fludarabine",
+    "n_comps": 5,
+    "n_cells": 14,
+    "moa": "ribonucleotide reductase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K81795824",
+    "n_comps": 5,
+    "n_cells": 13,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "alvocidib",
+    "n_comps": 4,
+    "n_cells": 19,
+    "moa": "CDK inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "MD-II-008-P",
+    "n_comps": 5,
+    "n_cells": 12,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "JNJ-7706621",
+    "n_comps": 4,
+    "n_cells": 13,
+    "moa": "CDK inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "AT-7519",
+    "n_comps": 4,
+    "n_cells": 18,
+    "moa": "CDK inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "belinostat",
+    "n_comps": 4,
+    "n_cells": 13,
+    "moa": "HDAC inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "entinostat",
+    "n_comps": 5,
+    "n_cells": 14,
+    "moa": "HDAC inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "CGP-60474",
+    "n_comps": 3,
+    "n_cells": 18,
+    "moa": "CDK inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "chromomycin-a3",
+    "n_comps": 3,
+    "n_cells": 12,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "5-iodotubercidin",
+    "n_comps": 5,
+    "n_cells": 14,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "verrucarin-a",
+    "n_comps": 4,
+    "n_cells": 13,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "HC-toxin",
+    "n_comps": 4,
+    "n_cells": 14,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "AS-601245",
+    "n_comps": 5,
+    "n_cells": 18,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "dacinostat",
+    "n_comps": 5,
+    "n_cells": 14,
+    "moa": "HDAC inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "PHA-793887",
+    "n_comps": 5,
+    "n_cells": 19,
+    "moa": "CDK inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "torin-2",
+    "n_comps": 4,
+    "n_cells": 19,
+    "moa": "mTOR inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "KM-00927",
+    "n_comps": 4,
+    "n_cells": 14,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "PF-562271",
+    "n_comps": 5,
+    "n_cells": 17,
+    "moa": "focal adhesion kinase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "WZ-3105",
+    "n_comps": 4,
+    "n_cells": 18,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A40431293",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "Merck60",
+    "n_comps": 5,
+    "n_cells": 9,
+    "moa": "HDAC inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K08448573",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K31706415",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "RJC-00245SC",
+    "n_comps": 5,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "EMF-bca1-16",
+    "n_comps": 3,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "prostratin",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K98824517",
+    "n_comps": 4,
+    "n_cells": 9,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "ofloxacin",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": "bacterial DNA gyrase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-A49848186",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "chloramphenicol",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": "bacterial 50S ribosomal subunit inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "EMF-sumo1-39",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "azacitidine",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": "DNA methyltransferase inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K06009608",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "MW-STK33-23",
+    "n_comps": 2,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "GSK-1059615",
+    "n_comps": 4,
+    "n_cells": 13,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "droxinostat",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": "HDAC inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "I-606051",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "NCH-51",
+    "n_comps": 2,
+    "n_cells": 11,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "heliomycin",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "I-606061",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "I-505056",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K29423519",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K79532217",
+    "n_comps": 5,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K62242359",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K36333904",
+    "n_comps": 4,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "BRD-K78133682",
+    "n_comps": 3,
+    "n_cells": 8,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "avicin-d",
+    "n_comps": 3,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "avicin-g",
+    "n_comps": 2,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "tigecycline",
+    "n_comps": 3,
+    "n_cells": 10,
+    "moa": "bacterial 30S ribosomal subunit inhibitor",
+    "enrichments": []
+  },
+  {
+    "drug": "hydroxyl",
+    "n_comps": 2,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "MW-SHH-151",
+    "n_comps": 5,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "MW-SHH-250",
+    "n_comps": 4,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "MW-SHH-54",
+    "n_comps": 5,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "MW-SHH-28",
+    "n_comps": 5,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "WY-01-045",
+    "n_comps": 4,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "AT1-SHH-29",
+    "n_comps": 3,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "STK-721917",
+    "n_comps": 3,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "KUC111774N",
+    "n_comps": 2,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "AT1-SHH-09",
+    "n_comps": 5,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  },
+  {
+    "drug": "MW-SHH-61",
+    "n_comps": 4,
+    "n_cells": 10,
+    "moa": null,
+    "enrichments": []
+  }
+]
