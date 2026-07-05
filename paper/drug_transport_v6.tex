@@ -500,8 +500,28 @@ out-of-sample.
 LOO instability predicted held-out cosine with Spearman $\rho = -0.98$
 ($p < 10^{-300}$): drugs with low instability (computed without seeing
 the held-out line) produce held-out signatures that closely match the
-consensus. Binarizing held-out outcomes as ``consistent'' (cosine $> 0.3$)
-versus ``inconsistent,'' LOO instability achieved AUROC $= 0.986$.
+consensus (Figure~\ref{fig:holdout}a). Binarizing held-out outcomes as
+``consistent'' (cosine $> 0.3$) versus ``inconsistent,'' LOO instability
+achieved AUROC $= 0.986$. The separation between the most stable
+quartile (Q1) and least stable quartile (Q4) is nearly complete
+(Figure~\ref{fig:holdout}b): stable drugs produce held-out cosines of
+0.2--0.7, while unstable drugs cluster below 0.2.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_holdout_prediction.pdf}
+\caption{Held-out prediction of drug mechanism transport.
+\textbf{(a)}~Direction instability computed on $N{-}1$ cell lines
+(x-axis) versus mean cosine between the held-out signature and the
+$N{-}1$ consensus (y-axis), for 2{,}694 drugs with $\geq 10$ cell
+lines. Red points are HDAC inhibitors. The tight curve
+($\rho = -0.98$, AUROC $= 0.986$) shows that instability
+\emph{predicts} held-out consistency, not merely correlates with it.
+\textbf{(b)}~Histogram of held-out cosine for the most stable (Q1,
+blue) and least stable (Q4, red) quartiles. The distributions barely
+overlap: stable drugs reliably transport to new contexts.}
+\label{fig:holdout}
+\end{figure}
 
 The HDAC selectivity gradient survived in the predictive setting
 (Table~\ref{tab:holdout}). Pan-HDAC inhibitors achieved 93--100\%
