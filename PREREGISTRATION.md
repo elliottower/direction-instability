@@ -14,9 +14,9 @@ observed outcomes.
 ## Hypotheses
 
 ### H1: Direction instability predicts cross-cell-line transport failure
-Drugs with high direction instability (the bracket norm analogue —
-measuring how much the perturbation signature rotates across cell
-lines) will have less reproducible effects across contexts.
+Drugs with high direction instability (measuring how much the
+perturbation signature rotates across cell lines) will have less
+reproducible effects across contexts.
 
 ### H2: Mechanism class stratifies transport
 Abundance-modulating drugs (degraders, expression modulators) will

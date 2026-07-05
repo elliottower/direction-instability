@@ -1,11 +1,11 @@
 [project]
 name = "drug-perturbation-geometry"
 version = "0.1.0"
-description = "Bracket norm predicts drug mechanism transport across cell lines (LINCS L1000)"
+description = "Direction instability predicts cross-cell-line drug mechanism transport (LINCS L1000)"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [
-    {name = "Elliot Tower", email = "elliot@elliottower.ai"},
+    {name = "Anonymous"},
 ]
 
 dependencies = [
