@@ -50,11 +50,11 @@ a consistent response (AUROC $= 0.986$).
 
 Pharmacological perturbation experiments increasingly rely on profiling drug
 effects across panels of cell lines to identify compounds with robust
-mechanisms of action \citep{subramanian2017next}. The LINCS L1000 Connectivity
-Map measures 978 landmark gene expression changes for ${\sim}20{,}000$
-compounds across up to 70 cell lines, producing high-dimensional signature
-vectors that characterize each drug's transcriptomic effect in each context
-\citep{subramanian2017next}.
+mechanisms of action \citep{lamb2006connectivity,subramanian2017next}. The
+LINCS L1000 Connectivity Map measures 978 landmark gene expression changes
+for ${\sim}20{,}000$ compounds across up to 70 cell lines, producing
+high-dimensional signature vectors that characterize each drug's
+transcriptomic effect in each context \citep{subramanian2017next}.
 
 A fundamental question arises: when does a drug's effect \emph{transport}
 from one cell type to another? Two drugs may share a mechanism-of-action
@@ -129,7 +129,8 @@ $\{\|\mathbf{s}_i\|\}_{i=1}^K$, capturing effect-size variation independent
 of direction.
 
 \textbf{Fr\'echet variance}: mean squared geodesic deviation from the
-Fr\'echet mean on the unit sphere $S^{977}$.
+Fr\'echet mean on the unit sphere $S^{977}$
+\citep{pennec2006intrinsic}.
 
 \textbf{Gene-level Jaccard overlap}: for each pair of cell lines, the
 Jaccard index of the top-50 up-regulated and top-50 down-regulated genes,
@@ -238,12 +239,13 @@ number of connected components. Pan-inhibitors form few components
 
 Pan-HDAC inhibitors (mean $D = 0.62$, $n = 8$) transport their mechanism
 across cell lines because their targets---histone deacetylases of classes
-I, II, and IV---are expressed in every cell type. Chromatin remodeling is a
-universal process, so inhibiting it broadly produces a conserved
-transcriptomic signature.
+I, II, and IV---are expressed in every cell type
+\citep{bolden2006anticancer}. Chromatin remodeling is a universal process,
+so inhibiting it broadly produces a conserved transcriptomic signature.
 
 Selective HDAC inhibitors (mean $D = 0.96$, $n = 5$) do not transport.
-PCI-34051 targets HDAC8 specifically; its transcriptomic effect depends on
+PCI-34051 targets HDAC8 specifically
+\citep{balasubramanian2008hdac8}; its transcriptomic effect depends on
 whether HDAC8 is functionally relevant in a given cell type. Valproic acid
 and phenylbutyrate are weak HDAC inhibitors with additional pharmacological
 activities, so their signatures reflect cell-type-specific off-target
@@ -289,9 +291,9 @@ belinostat & HDAC inhibitor & 0.589 & 0.006 \\
 \end{table}
 
 Conversely, imatinib ($D = 0.97$, 19 cell lines) exemplifies a
-context-dependent drug. Its primary therapeutic target is BCR-ABL, but
-it hits eight kinase targets (ABL1, KIT, PDGFRA/B, DDR1, RET, NTRK1,
-CSF1R). Across the LINCS panel, its signatures rotate 88$^\circ$ on
+context-dependent drug \citep{deininger2005imatinib}. Its primary
+therapeutic target is BCR-ABL, but it hits eight kinase targets (ABL1,
+KIT, PDGFRA/B, DDR1, RET, NTRK1, CSF1R). Across the LINCS panel, its signatures rotate 88$^\circ$ on
 average---near orthogonality. Genetic triangulation reveals the
 mechanism: imatinib's highest drug--shRNA cosine is with DDR1
 ($\cos = 0.22$), not ABL1 ($\cos = 0.18$), because most LINCS cell
