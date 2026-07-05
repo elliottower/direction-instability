@@ -662,94 +662,108 @@ instability captures structure beyond what signal strength accounts for.
 
 \section{Discussion}
 
-Direction instability provides a single-number summary of whether a drug's
-transcriptomic mechanism generalizes across cell types. Three lines of
-evidence support this claim. First, the metric tracks gene-level
-mechanism conservation ($\rho = -0.79$ with Jaccard overlap), MOA classes
-stratify in a biologically interpretable pattern, and the cytotoxicity
-defense shows that the signal reflects target-specific conservation
-rather than generic cell death. Second, the HDAC selectivity gradient
-provides a within-class controlled comparison that rules out MOA labels
-as the driver: target breadth determines transport. Third, leave-one-out
-cross-validation elevates the claim from correlation to prediction
-(AUROC $= 0.986$, permutation collapse to $0.500$), with a replicate
-noise floor showing that cross-cell variation exceeds assay noise for
-the majority of drugs.
+Direction instability provides a single-number summary of whether a
+drug's transcriptomic mechanism generalizes across cell types. The
+metric tracks gene-level mechanism conservation ($\rho = -0.79$ with
+Jaccard overlap), MOA classes stratify in a biologically interpretable
+pattern, and the cytotoxicity defense shows that the signal reflects
+target-specific conservation rather than generic cell death. The HDAC
+selectivity gradient provides a within-class controlled comparison
+that rules out MOA labels as the driver: target breadth determines
+transport. Leave-one-out cross-validation elevates the claim from
+correlation to prediction (AUROC $= 0.986$, permutation collapse to
+$0.500$), with a replicate noise floor showing that cross-cell
+variation exceeds assay noise for the majority of drugs.
 
-The transporting-core analysis identifies the specific genes that
-are conserved: for pan-HDAC inhibitors, the shared core is the HDAC
-target pathway itself (\emph{SUV39H1}, \emph{MYC}, \emph{CDK6}).
-Genetic triangulation provides suggestive convergent evidence from an
+The transporting-core analysis identifies the specific genes that are
+conserved: for pan-HDAC inhibitors, the shared core is the HDAC target
+pathway itself (\emph{SUV39H1}, \emph{MYC}, \emph{CDK6}). Genetic
+triangulation provides suggestive convergent evidence from an
 independent data modality: within five drug families, exploratory
 within-family analysis found that mechanism-conserving drugs produce
-signatures more similar to genetic knockdown of their annotated targets,
-though the pre-registered global test fell short of its effect-size
-threshold. Independent replication of the within-family result would
-strengthen the case that transport is target-mediated.
+signatures more similar to genetic knockdown of their annotated
+targets, though the pre-registered global test fell short of its
+effect-size threshold ($\rho = -0.18$; bar $|\rho| > 0.3$).
+Independent replication of the within-family result would strengthen
+the case that transport is target-mediated. Two other pre-registered
+predictions also missed: component-tissue enrichment showed no signal
+(0.6\% vs.\ the predicted $>$20\%), and the strict component-count
+prediction for pan-HDAC inhibitors (1--2 components) was too tight
+(observed 1--5). All three are reported because the commit SHA proves
+they were predictions, not post-hoc hypotheses.
 
-\paragraph{Relation to the bracket norm.}
 Direction instability is formally analogous to the neural bracket norm
 \citep{tower2026bracket}, which measures directional rotation of
-learned representations across evidence levels. Both metrics detect when a
-system responds to a perturbation by rotating its internal state rather
-than scaling it. The pharmacological application replaces evidence
-quartiles with cell lines and neural activations with gene expression
-signatures, preserving the geometric interpretation: low rotation implies
-a conserved mechanism that transports across contexts. The analogy is
-structural, not literal: evidence quartiles are ordered while cell lines
-are exchangeable, so the bracket norm's monotonicity properties do not
-carry over. Direction instability treats all pairwise comparisons
-symmetrically, which is appropriate for the unordered cell-line setting.
+neural population vectors across evidence levels. Both metrics detect
+when a system responds to a perturbation by rotating its internal
+state rather than scaling it. The pharmacological application replaces
+evidence quartiles with cell lines and neural activations with gene
+expression signatures, preserving the geometric interpretation: low
+rotation implies a conserved mechanism. The analogy is structural, not
+literal: evidence quartiles are ordered while cell lines are
+exchangeable, so bracket norm's monotonicity properties do not carry
+over. Direction instability treats all pairwise comparisons
+symmetrically, which is appropriate for the unordered cell-line
+setting.
 
-\paragraph{Pre-registered misses.}
-Three pre-registered predictions missed their thresholds. The global
-genetic triangulation correlation ($\rho = -0.18$) fell below the
-pre-registered bar of $|\rho| > 0.3$; the within-family stratification
-that rescued this result was not pre-registered. Component-tissue
-enrichment showed no signal (0.6\% vs.\ the predicted $>$20\%). The
-strict component-count prediction for pan-HDAC inhibitors (1--2
-components) was too tight (observed 1--5). All three are reported
-because the commit SHA proves they were predictions, not post-hoc
-hypotheses.
-
-\paragraph{Falsifiability.}
 The central claim---that direction instability tracks mechanism
-conservation---would be falsified by a drug class with a known conserved
-mechanism that scores as unstable, or by showing that the held-out
-prediction collapses on an independent perturbation dataset (JUMP-CP,
-Perturb-seq). The HDAC selectivity gradient would be undermined if
-isoform-selective inhibitors produced conserved signatures in a panel
-enriched for cell types expressing the relevant isoform. We have found no
-such counterexample in LINCS L1000, but absence of counterexamples in one
-dataset is weaker than replication across datasets.
+conservation---would be falsified by a drug class with a known
+conserved mechanism that scores as unstable, or by showing that the
+held-out prediction collapses on an independent perturbation dataset
+(JUMP-CP, Perturb-seq). The HDAC selectivity gradient would be
+undermined if isoform-selective inhibitors produced conserved
+signatures in a panel enriched for cell types expressing the relevant
+isoform. We have found no such counterexample in LINCS L1000, but
+absence of counterexamples in one dataset is weaker than replication
+across datasets.
 
-\paragraph{Limitations.}
-LINCS L1000 measures only 978 landmark genes; full-transcriptome profiling
-might reveal additional structure. The population null controls for
-cell-line count but not for other confounds (drug concentration, time
-point). Direction instability partially correlates with signature
-$L_2$ norm ($\rho = -0.41$) and with replicate instability
-($\rho = 0.51$): drugs with stronger, more reproducible signals tend
-toward lower cross-cell instability. Cross-cell $D$ exceeds the replicate
-noise floor for 68\% of drugs and instability explains $1.7\times$ more
-held-out variance than norm alone, so the metric captures structure
-beyond assay noise, but the two are partially confounded. A Level~4
-(pre-replicate-collapse) analysis would provide a tighter noise bound
-than the plate-level replicates used here.
-MOA annotations from the Repurposing Hub are incomplete (20\% coverage)
-and may contain errors. The direction-instability metric treats all cell
+\section{Limitations}
+
+LINCS L1000 measures only 978 landmark genes; full-transcriptome
+profiling might reveal additional structure. The population null
+controls for cell-line count but not for other confounds (drug
+concentration, time point). Direction instability partially correlates
+with signature $L_2$ norm ($\rho = -0.41$) and with replicate
+instability ($\rho = 0.51$): drugs with stronger, more reproducible
+signals tend toward lower cross-cell instability. Cross-cell $D$
+exceeds the replicate noise floor for 68\% of drugs and instability
+explains $1.7\times$ more held-out variance than norm alone, so the
+metric captures structure beyond assay noise, but the two are
+partially confounded. A Level~4 (pre-replicate-collapse) analysis
+would provide a tighter noise bound than the plate-level replicates
+used here. MOA annotations from the Repurposing Hub are incomplete
+(20\% coverage) and may contain errors. The metric treats all cell
 lines as exchangeable and does not model phylogenetic relationships
 between cell types.
 
-\paragraph{Applications.}
-Direction instability could serve as a filter for identifying compounds
-whose transcriptomic mechanism is conserved across cellular contexts,
-a prerequisite for robust cross-cell-line translation. Whether
-cell-line transport predicts clinical efficacy across patient populations
-remains an open question outside the scope of this work. The metric
-requires only perturbation signatures across $\geq5$ contexts, making
-it applicable to any multi-context profiling dataset (CMAP, JUMP-CP,
-Perturb-seq).
+Whether cell-line transport predicts clinical efficacy across patient
+populations remains an open question outside the scope of this work.
+Direction instability requires only perturbation signatures across
+$\geq5$ contexts, making it directly applicable to other multi-context
+profiling datasets (JUMP-CP, Perturb-seq).
+
+\section{Conclusion}
+
+Direction instability identifies which drugs produce conserved
+transcriptomic effects across cell lines and which are
+context-dependent, using only the geometry of their perturbation
+signatures. The HDAC selectivity gradient shows that this conservation
+is target-mediated: drugs sharing a broad chromatin remodeling program
+transport, while those depending on cell-type-specific isoform
+expression do not. Leave-one-out cross-validation confirms the metric
+predicts out-of-sample consistency (AUROC $= 0.986$), making it a
+practical filter for prioritizing compounds whose effects are likely
+to generalize to untested cell types. The computation requires only a
+matrix of response vectors and a context index, and applies to any
+multi-context profiling dataset.
+
+\paragraph{Data and code availability.} All data analyzed are publicly
+available from the LINCS L1000 Connectivity Map
+\citep{subramanian2017next} and the Drug Repurposing Hub
+\citep{corsello2017drug}. Analysis code, pre-registered hypotheses
+and effect-size thresholds (commit SHA \texttt{1dc20a2}), and
+per-drug instability scores for all 8{,}949 compounds will be
+released upon publication.
 
 \bibliographystyle{tmlr}
 \bibliography{references_anon}
