@@ -185,92 +185,56 @@ context-dependent penetrance.
 
 \subsection{MOA class stratification}
 
-Table~\ref{tab:moa} shows mean direction instability by MOA class (classes
-with $\geq10$ annotated drugs). Two classes stand out: HDAC inhibitors
-($\bar{D} = 0.77$, $\sigma = 0.14$) and topoisomerase inhibitors
-($\bar{D} = 0.77$, $\sigma = 0.12$). CDK inhibitors and tubulin
-polymerization inhibitors also show reduced instability ($\bar{D} = 0.80$
-and $0.88$ respectively). Receptor antagonists and agonists cluster near
-the population mean ($\bar{D} = 0.93$--$0.96$), consistent with
-receptor-mediated mechanisms being cell-type-dependent.
+Figure~\ref{fig:moa} shows mean direction instability by MOA class
+(classes with $\geq 15$ annotated drugs). Two classes stand out: HDAC
+inhibitors ($\bar{D} = 0.77$, $\sigma = 0.14$) and topoisomerase
+inhibitors ($\bar{D} = 0.77$, $\sigma = 0.12$). CDK inhibitors and
+tubulin polymerization inhibitors also show reduced instability
+($\bar{D} = 0.80$ and $0.88$ respectively). Receptor antagonists and
+agonists cluster near the population mean ($\bar{D} = 0.93$--$0.96$),
+consistent with receptor-mediated mechanisms being cell-type-dependent.
 
-\begin{table}[t]
+\begin{figure}[t]
 \centering
-\caption{Direction instability by MOA class ($n \geq 10$). Classes targeting
-fundamental cellular machinery (chromatin, DNA, cell cycle) show lower
-instability than receptor-mediated classes. Within HDAC inhibitors, the
-high variance ($\sigma = 0.14$) reflects the pan-selective gradient
-discussed in Section~\ref{sec:hdac}.}
-\label{tab:moa}
-\small
-\begin{tabular}{lrrr}
-\toprule
-MOA class & $n$ & $\bar{D}$ & $\sigma$ \\
-\midrule
-topoisomerase inhibitor & 17 & 0.765 & 0.123 \\
-HDAC inhibitor & 20 & 0.766 & 0.142 \\
-CDK inhibitor & 16 & 0.797 & 0.119 \\
-tubulin polymerization inhibitor & 19 & 0.882 & 0.048 \\
-MEK inhibitor & 14 & 0.888 & 0.066 \\
-EGFR inhibitor & 23 & 0.899 & 0.064 \\
-FLT3 inhibitor & 15 & 0.896 & 0.057 \\
-tyrosine kinase inhibitor & 14 & 0.901 & 0.065 \\
-VEGFR inhibitor & 21 & 0.909 & 0.045 \\
-calcium channel blocker & 25 & 0.923 & 0.067 \\
-monoamine oxidase inhibitor & 17 & 0.924 & 0.071 \\
-glucocorticoid receptor agonist & 31 & 0.933 & 0.039 \\
-\midrule
-\emph{Population mean} & 8{,}949 & 0.924 & 0.061 \\
-\midrule
-dopamine receptor antagonist & 59 & 0.936 & 0.046 \\
-histamine receptor antagonist & 41 & 0.944 & 0.049 \\
-serotonin receptor antagonist & 62 & 0.945 & 0.035 \\
-cyclooxygenase inhibitor & 53 & 0.947 & 0.031 \\
-adrenergic receptor antagonist & 52 & 0.945 & 0.038 \\
-adrenergic receptor agonist & 40 & 0.950 & 0.028 \\
-phosphodiesterase inhibitor & 31 & 0.953 & 0.023 \\
-serotonin receptor agonist & 31 & 0.958 & 0.022 \\
-PPAR receptor agonist & 19 & 0.956 & 0.019 \\
-\bottomrule
-\end{tabular}
-\end{table}
+\includegraphics[width=\textwidth]{fig_moa_stratification.pdf}
+\caption{Direction instability by MOA class ($n \geq 15$). Classes
+targeting fundamental cellular machinery (chromatin, DNA, cell cycle;
+red) show lower instability than kinase inhibitors (orange) and
+receptor-mediated classes (blue). Dashed line: population mean
+($D = 0.924$). Error bars: $\pm 1$ SD. Within HDAC inhibitors, the
+high variance reflects the pan-selective gradient
+(Figure~\ref{fig:hdac}).}
+\label{fig:moa}
+\end{figure}
 
 \subsection{The HDAC inhibitor selectivity gradient}
 \label{sec:hdac}
 
 The HDAC inhibitor class provides a natural experiment: 20 annotated HDAC
 inhibitors span the full selectivity spectrum from pan-isoform to
-isoform-specific. Table~\ref{tab:hdac} shows the eight most-transporting
-HDAC inhibitors (all pan-isoform) and the five least-transporting
-(selective or weak).
+isoform-specific (Figure~\ref{fig:hdac}). Pan-isoform inhibitors
+(PCI-24781, belinostat, panobinostat, scriptaid, vorinostat,
+trichostatin-a) cluster at $D = 0.56$--$0.67$ with significant
+population $p$-values ($p < 0.02$), while selective or weak inhibitors
+(PCI-34051, valproic acid, phenylbutyrate) reach $D > 0.95$ and are
+indistinguishable from the null. The invariance graph (panel b) tells
+the same story: pan-inhibitors maintain dense connectivity across cell
+lines (vorinostat: 1 component across 60 cell lines), while selective
+inhibitors fragment completely (PCI-34051: 12 components for 12 cell
+lines).
 
-\begin{table}[t]
+\begin{figure}[t]
 \centering
-\caption{HDAC inhibitors ranked by direction instability. Pan-isoform
-inhibitors achieve low instability and significant population $p$-values;
-selective inhibitors are indistinguishable from the null.}
-\label{tab:hdac}
-\small
-\begin{tabular}{llrrr}
-\toprule
-Drug & Selectivity & $D$ & $n$ & $p$ \\
-\midrule
-PCI-24781 & pan & 0.561 & 13 & 0.004 \\
-belinostat & pan & 0.589 & 13 & 0.006 \\
-panobinostat & pan & 0.591 & 15 & 0.007 \\
-scriptaid & pan & 0.620 & 15 & 0.009 \\
-vorinostat & pan & 0.628 & 60 & 0.008 \\
-trichostatin-a & pan & 0.634 & 64 & 0.014 \\
-NSC-3852 & pan & 0.674 & 15 & 0.016 \\
-entinostat & class I & 0.697 & 14 & 0.023 \\
-\midrule
-valproic acid & weak/partial & 0.955 & 54 & 0.947 \\
-Merck60 & selective & 0.962 & 9 & 0.778 \\
-PCI-34051 & HDAC8-selective & 0.984 & 12 & 0.976 \\
-phenylbutyrate & weak/partial & 0.989 & 11 & 0.988 \\
-\bottomrule
-\end{tabular}
-\end{table}
+\includegraphics[width=\textwidth]{fig_hdac_gradient.pdf}
+\caption{HDAC inhibitor selectivity gradient. \textbf{(a)}~Direction
+instability for all 20 HDAC inhibitors, ordered by $D$. Pan-isoform
+inhibitors (red) cluster at low instability; selective and weak
+inhibitors (blue) are indistinguishable from the population.
+\textbf{(b)}~Invariance graph density at cosine threshold 0.5 and
+number of connected components. Pan-inhibitors form few components
+(dense graphs); selective inhibitors fragment into isolated nodes.}
+\label{fig:hdac}
+\end{figure}
 
 Pan-HDAC inhibitors (mean $D = 0.62$, $n = 8$) transport their mechanism
 across cell lines because their targets---histone deacetylases of classes
@@ -351,16 +315,30 @@ inhibitors, RNA polymerase inhibitors, protein synthesis inhibitors)
 and measuring each drug's cosine similarity with this reference.
 
 Direction instability showed weak correlation with cytotoxic-signature
-overlap (Spearman $\rho = -0.17$, $p = 1.6 \times 10^{-58}$,
-excluding known cytotoxic drugs). The correlation is in the wrong
-direction for the confound hypothesis: drugs resembling the cytotoxic
-profile are \emph{less} stable, not more. Removing the 50 genes
-most associated with the cytotoxic signature and recomputing direction
-instability preserved the HDAC inhibitor gradient (Spearman
-$\rho = 0.83$ between original and stress-corrected values). Pan-HDAC
+overlap (Spearman $\rho = -0.17$, excluding known cytotoxic drugs;
+Figure~\ref{fig:toxicity}a). The correlation is in the wrong direction
+for the confound hypothesis: drugs resembling the cytotoxic profile are
+\emph{less} stable, not more. Removing the 50 genes most associated with
+the cytotoxic signature and recomputing direction instability preserved
+the HDAC inhibitor gradient ($\rho = 0.83$ between original and
+stress-corrected values; Figure~\ref{fig:toxicity}b). Pan-HDAC
 inhibitors became \emph{more} stable after stress-gene removal
 (vorinostat: $D = 0.63 \to 0.50$), confirming that their conserved
 signal is chromatin-specific, not a generic stress response.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_toxicity_defense.pdf}
+\caption{Cytotoxicity confound check. \textbf{(a)}~Direction instability
+versus cosine similarity with the mean cytotoxic signature ($\rho =
+-0.17$, excluding known cytotoxic drugs in red). The negative sign rules
+out the confound: drugs resembling the stress response are less stable,
+not more. \textbf{(b)}~HDAC inhibitor instability before (blue) and
+after (orange) removing 50 stress-associated genes. The selectivity
+gradient is preserved ($\rho = 0.83$), and pan-inhibitors become
+more stable.}
+\label{fig:toxicity}
+\end{figure}
 
 \subsection{The transporting core is the target pathway}
 
@@ -397,8 +375,25 @@ cell line.
 Among 2{,}138 drug--target pairs with $\geq3$ shared cell lines, the
 pre-registered global correlation between direction instability and
 $|$drug--shRNA cosine$|$ was significant (Spearman $\rho = -0.18$,
-$p = 1.1 \times 10^{-16}$) and in the expected direction, but fell below
-our pre-registered effect-size threshold of $|\rho| > 0.3$.
+$p = 1.1 \times 10^{-16}$; Figure~\ref{fig:triangulation}) and in the
+expected direction, but fell below our pre-registered effect-size
+threshold of $|\rho| > 0.3$.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\textwidth]{fig_genetic_triangulation.pdf}
+\caption{Genetic triangulation: direction instability versus
+$|$drug--shRNA cosine$|$ for 2{,}138 drug--target pairs. HDAC
+inhibitors (red circles) and proteasome inhibitors (green diamonds)
+are highlighted. Proteasome inhibitors cluster at high cosine and low
+instability; HDAC inhibitors span the full gradient. Labels show
+drug--target pairs for selected HDAC inhibitors. The global correlation
+($\rho = -0.18$) is attenuated by cross-family baseline differences
+(proteasome $\cos \approx 0.45$ vs.\ HDAC $\cos \approx 0.15$);
+within-family stratification yields $|\rho| = 0.32$--$0.84$
+(Table~\ref{tab:triangulation}).}
+\label{fig:triangulation}
+\end{figure}
 
 A structural limitation of the pooled test is that it conflates drug
 families with inherently different baseline drug--knockdown cosines.
