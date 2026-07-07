@@ -358,6 +358,11 @@ dev = [
     { name = "ruff" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "cmappy", marker = "extra == 'data'", specifier = ">=4.0" },
@@ -371,6 +376,9 @@ requires-dist = [
     { name = "tqdm", specifier = ">=4.65" },
 ]
 provides-extras = ["dev", "data"]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=9.1.1" }]
 
 [[package]]
 name = "exceptiongroup"

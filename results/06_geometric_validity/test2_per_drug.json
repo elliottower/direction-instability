@@ -1,0 +1,4657 @@
+[
+  {
+    "drug": "ABT-751",
+    "target": "TUBB",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1255861897454276,
+    "di_raw": 0.9033407866954803
+  },
+  {
+    "drug": "acebutolol",
+    "target": "ADRB1",
+    "expression_breadth": 0.034278180619644036,
+    "di_corrected": 1.1241908624595722,
+    "di_raw": 0.9547570012509823
+  },
+  {
+    "drug": "acetyl-farnesyl-cysteine",
+    "target": "PPARG",
+    "expression_breadth": 0.4858272907053395,
+    "di_corrected": 1.1345707582872842,
+    "di_raw": 0.9458306580781937
+  },
+  {
+    "drug": "acyclovir",
+    "target": "PNP",
+    "expression_breadth": 0.992748846407383,
+    "di_corrected": 1.0734745723161343,
+    "di_raw": 0.8519578725099564
+  },
+  {
+    "drug": "AG-14361",
+    "target": "PARP1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0024704928042465,
+    "di_raw": 0.7388950884342194
+  },
+  {
+    "drug": "alaproclate",
+    "target": "SLC6A4",
+    "expression_breadth": 0.015161502966381015,
+    "di_corrected": 1.1507841994698027,
+    "di_raw": 0.9789505880326033
+  },
+  {
+    "drug": "alda-1",
+    "target": "ALDH2",
+    "expression_breadth": 0.7323665128543178,
+    "di_corrected": 1.1038262036665696,
+    "di_raw": 0.9269007220864296
+  },
+  {
+    "drug": "alimemazine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 0.9578486310359591,
+    "di_raw": 0.7615364044904709
+  },
+  {
+    "drug": "alisertib",
+    "target": "AURKA",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.0932424331878994,
+    "di_raw": 0.8871837332844734
+  },
+  {
+    "drug": "alosetron",
+    "target": "HTR3A",
+    "expression_breadth": 0.026367831245880026,
+    "di_corrected": 1.1325015260046987,
+    "di_raw": 0.938225507736206
+  },
+  {
+    "drug": "alrestatin",
+    "target": "AKR1B1",
+    "expression_breadth": 0.9070533948582729,
+    "di_corrected": 1.1021826383166684,
+    "di_raw": 0.9512693323194981
+  },
+  {
+    "drug": "altanserin",
+    "target": "HTR2A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.1156495163285292,
+    "di_raw": 0.9498924240469933
+  },
+  {
+    "drug": "altrenogest",
+    "target": "PGR",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.189493710139899,
+    "di_raw": 0.9647604152560234
+  },
+  {
+    "drug": "alverine",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.161882459903324,
+    "di_raw": 0.9872266752645373
+  },
+  {
+    "drug": "alvespimycin",
+    "target": "HSP90AA1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1112106326950233,
+    "di_raw": 0.8601018339395523
+  },
+  {
+    "drug": "ALX-5407",
+    "target": "SLC6A9",
+    "expression_breadth": 0.5636123928806855,
+    "di_corrected": 1.1033699603689011,
+    "di_raw": 0.9509728886187077
+  },
+  {
+    "drug": "AM-580",
+    "target": "RARA",
+    "expression_breadth": 0.9531970995385629,
+    "di_corrected": 1.1510472929860018,
+    "di_raw": 0.9487490616738796
+  },
+  {
+    "drug": "AM-92016",
+    "target": "GRIN1",
+    "expression_breadth": 0.0903098220171391,
+    "di_corrected": 1.176713735590489,
+    "di_raw": 0.9700047355145216
+  },
+  {
+    "drug": "ambroxol",
+    "target": "CYP3A4",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.113317768514385,
+    "di_raw": 0.9306125119328499
+  },
+  {
+    "drug": "amcinonide",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.116210933773024,
+    "di_raw": 0.9187416434288025
+  },
+  {
+    "drug": "AMG-9810",
+    "target": "TRPV1",
+    "expression_breadth": 0.14831905075807514,
+    "di_corrected": 1.109208971510887,
+    "di_raw": 0.8958625644445419
+  },
+  {
+    "drug": "aminomethyltransferase",
+    "target": "NOS2",
+    "expression_breadth": 0.017798286090969017,
+    "di_corrected": 1.1402396386375697,
+    "di_raw": 0.9789572115987539
+  },
+  {
+    "drug": "aminopentamide",
+    "target": "CHRM1",
+    "expression_breadth": 0.016479894528675015,
+    "di_corrected": 1.134921976324152,
+    "di_raw": 0.9792452901601791
+  },
+  {
+    "drug": "amisulpride",
+    "target": "DRD2",
+    "expression_breadth": 0.06460118655240607,
+    "di_corrected": 1.141541451327855,
+    "di_raw": 0.9749206770211458
+  },
+  {
+    "drug": "AMN-082",
+    "target": "GRM7",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.1700771787061073,
+    "di_raw": 0.9780054427683353
+  },
+  {
+    "drug": "amodiaquine",
+    "target": "HNMT",
+    "expression_breadth": 0.5121951219512195,
+    "di_corrected": 1.2238034091024343,
+    "di_raw": 0.9410179927945137
+  },
+  {
+    "drug": "amthamine",
+    "target": "HRH2",
+    "expression_breadth": 0.07580751483190508,
+    "di_corrected": 1.116771121250761,
+    "di_raw": 0.9268466308712959
+  },
+  {
+    "drug": "anagrelide",
+    "target": "PDE3A",
+    "expression_breadth": 0.07910349373764008,
+    "di_corrected": 1.1161380361733542,
+    "di_raw": 0.9195459336042404
+  },
+  {
+    "drug": "anastrozole",
+    "target": "CYP19A1",
+    "expression_breadth": 0.025708635464733027,
+    "di_corrected": 1.160419792552418,
+    "di_raw": 0.9546905159950256
+  },
+  {
+    "drug": "andarine",
+    "target": "AR",
+    "expression_breadth": 0.1008569545154911,
+    "di_corrected": 1.137642932021219,
+    "di_raw": 0.961690291762352
+  },
+  {
+    "drug": "anpirtoline",
+    "target": "HTR1B",
+    "expression_breadth": 0.008569545154911009,
+    "di_corrected": 1.178704926895666,
+    "di_raw": 0.9895105566829443
+  },
+  {
+    "drug": "apafant",
+    "target": "PTAFR",
+    "expression_breadth": 0.1825972313777192,
+    "di_corrected": 1.1569816644802857,
+    "di_raw": 0.9822021014988422
+  },
+  {
+    "drug": "aprepitant",
+    "target": "TACR1",
+    "expression_breadth": 0.013183915622940013,
+    "di_corrected": 1.1337050314753876,
+    "di_raw": 0.9544185176491737
+  },
+  {
+    "drug": "AQ-RA741",
+    "target": "CHRM2",
+    "expression_breadth": 0.034278180619644036,
+    "di_corrected": 1.123573899352314,
+    "di_raw": 0.965143445879221
+  },
+  {
+    "drug": "AR-A014418",
+    "target": "GSK3B",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1097148295993784,
+    "di_raw": 0.8893377631902695
+  },
+  {
+    "drug": "arecaidine-but-2-ynyl-ester",
+    "target": "CHRM2",
+    "expression_breadth": 0.034278180619644036,
+    "di_corrected": 1.0943684648926806,
+    "di_raw": 0.9254392981529236
+  },
+  {
+    "drug": "argatroban",
+    "target": "F2",
+    "expression_breadth": 0.02043506921555702,
+    "di_corrected": 1.153662801081118,
+    "di_raw": 0.9848076179623604
+  },
+  {
+    "drug": "artemether",
+    "target": "ATP1A1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1704644885249773,
+    "di_raw": 0.9262718707323074
+  },
+  {
+    "drug": "asiatic-acid",
+    "target": "PYGM",
+    "expression_breadth": 0.03032300593276203,
+    "di_corrected": 1.1600026115432915,
+    "di_raw": 0.9747427552938461
+  },
+  {
+    "drug": "ataluren",
+    "target": "DMD",
+    "expression_breadth": 0.3315754779169413,
+    "di_corrected": 1.1496733088191016,
+    "di_raw": 0.9786416757851839
+  },
+  {
+    "drug": "ATPA",
+    "target": "GRIK1",
+    "expression_breadth": 0.005273566249176005,
+    "di_corrected": 1.1405965136069125,
+    "di_raw": 0.9613858051598072
+  },
+  {
+    "drug": "aurora-a-inhibitor-i",
+    "target": "AURKA",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.0999932109958799,
+    "di_raw": 0.9336762204766273
+  },
+  {
+    "drug": "AZ-10417808",
+    "target": "CASP3",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.157591687829475,
+    "di_raw": 0.9722793716937304
+  },
+  {
+    "drug": "azacyclonol",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1539708870532368,
+    "di_raw": 0.9830079972743988
+  },
+  {
+    "drug": "azelastine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1883792909585726,
+    "di_raw": 0.9538011252880096
+  },
+  {
+    "drug": "azithromycin",
+    "target": "MLNR",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.1198614026953417,
+    "di_raw": 0.9401977062225342
+  },
+  {
+    "drug": "BADGE",
+    "target": "PPARG",
+    "expression_breadth": 0.4858272907053395,
+    "di_corrected": 1.1563867488272146,
+    "di_raw": 0.9397906176745892
+  },
+  {
+    "drug": "barasertib-HQPA",
+    "target": "AURKB",
+    "expression_breadth": 0.997363216875412,
+    "di_corrected": 1.1129521773004294,
+    "di_raw": 0.9586970247328281
+  },
+  {
+    "drug": "BAX-channel-blocker",
+    "target": "BAX",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.152822912422547,
+    "di_raw": 0.9501420669257641
+  },
+  {
+    "drug": "BAY-11-7082",
+    "target": "RELA",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1781463352620132,
+    "di_raw": 0.8932728692889214
+  },
+  {
+    "drug": "BD-1047",
+    "target": "SIGMAR1",
+    "expression_breadth": 0.996704021094265,
+    "di_corrected": 1.1275105656946833,
+    "di_raw": 0.9548396989703178
+  },
+  {
+    "drug": "BD-1063",
+    "target": "SIGMAR1",
+    "expression_breadth": 0.996704021094265,
+    "di_corrected": 1.1379077808364,
+    "di_raw": 0.936892494559288
+  },
+  {
+    "drug": "BE-2254",
+    "target": "ADRA1A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.1288694961088053,
+    "di_raw": 0.9609805420041084
+  },
+  {
+    "drug": "bemegride",
+    "target": "GABRA1",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.1208663173066806,
+    "di_raw": 0.9474201463162899
+  },
+  {
+    "drug": "benazepril",
+    "target": "ACE",
+    "expression_breadth": 0.12261041529334213,
+    "di_corrected": 1.165312206506587,
+    "di_raw": 0.9901924133300781
+  },
+  {
+    "drug": "benperidol",
+    "target": "DRD2",
+    "expression_breadth": 0.06460118655240607,
+    "di_corrected": 1.1588968404420465,
+    "di_raw": 0.9930340861901641
+  },
+  {
+    "drug": "benproperine",
+    "target": "SCN5A",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1088584882235808,
+    "di_raw": 0.9286179691553116
+  },
+  {
+    "drug": "benzbromarone",
+    "target": "ABCC1",
+    "expression_breadth": 0.995385629531971,
+    "di_corrected": 1.1139915403700025,
+    "di_raw": 0.9546659514307976
+  },
+  {
+    "drug": "benzonatate",
+    "target": "SCN5A",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1523477531360913,
+    "di_raw": 0.961364708840847
+  },
+  {
+    "drug": "benzthiazide",
+    "target": "CA2",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1255648253833839,
+    "di_raw": 0.9438881874084473
+  },
+  {
+    "drug": "bepridil",
+    "target": "KCNQ4",
+    "expression_breadth": 0.03955174686882004,
+    "di_corrected": 1.1367817780453304,
+    "di_raw": 0.9619749449193478
+  },
+  {
+    "drug": "betamethasone",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.065550440406272,
+    "di_raw": 0.884549506008625
+  },
+  {
+    "drug": "betamethasone-acetate",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1358086821907705,
+    "di_raw": 0.952619343996048
+  },
+  {
+    "drug": "betulinic-acid",
+    "target": "GPBAR1",
+    "expression_breadth": 0.01120632827949901,
+    "di_corrected": 1.1125360956111265,
+    "di_raw": 0.9369479194283485
+  },
+  {
+    "drug": "BI-78D3",
+    "target": "MAPK8",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.145315119993181,
+    "di_raw": 0.9471275396645069
+  },
+  {
+    "drug": "BIBR-1532",
+    "target": "TERT",
+    "expression_breadth": 0.2030323005932762,
+    "di_corrected": 1.0907363903543317,
+    "di_raw": 0.8839890658855438
+  },
+  {
+    "drug": "BIBU-1361",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 0.9229327586901084,
+    "di_raw": 0.6499102115631104
+  },
+  {
+    "drug": "bicalutamide",
+    "target": "AR",
+    "expression_breadth": 0.1008569545154911,
+    "di_corrected": 1.0815482545683575,
+    "di_raw": 0.9081702083349228
+  },
+  {
+    "drug": "bisoprolol",
+    "target": "ADRB1",
+    "expression_breadth": 0.034278180619644036,
+    "di_corrected": 1.14235517013316,
+    "di_raw": 0.9804444052278996
+  },
+  {
+    "drug": "BIX-02188",
+    "target": "MAP2K5",
+    "expression_breadth": 0.955833882663151,
+    "di_corrected": 1.164514009311558,
+    "di_raw": 0.9584167376160622
+  },
+  {
+    "drug": "BML-190",
+    "target": "CNR2",
+    "expression_breadth": 0.04087013843111404,
+    "di_corrected": 1.0875208875269688,
+    "di_raw": 0.9361580908298492
+  },
+  {
+    "drug": "BMS-182874",
+    "target": "EDNRA",
+    "expression_breadth": 0.07514831905075807,
+    "di_corrected": 1.115060085289353,
+    "di_raw": 0.9522786661982536
+  },
+  {
+    "drug": "BMS-191011",
+    "target": "KCNMA1",
+    "expression_breadth": 0.44232036914963746,
+    "di_corrected": 1.1215799805010482,
+    "di_raw": 0.9587925113737583
+  },
+  {
+    "drug": "BMY-14802",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.142944935413309,
+    "di_raw": 0.9488704800605774
+  },
+  {
+    "drug": "BMY-45778",
+    "target": "PTGIR",
+    "expression_breadth": 0.07514831905075807,
+    "di_corrected": 1.0691067434335508,
+    "di_raw": 0.8647050112485886
+  },
+  {
+    "drug": "BP-554",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.1810005356502766,
+    "di_raw": 0.9839924424886703
+  },
+  {
+    "drug": "BRL-52537",
+    "target": "OPRK1",
+    "expression_breadth": 0.011865524060646011,
+    "di_corrected": 1.096646639018422,
+    "di_raw": 0.94253159314394
+  },
+  {
+    "drug": "brompheniramine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.128655968501515,
+    "di_raw": 0.9505057819187641
+  },
+  {
+    "drug": "bucladesine",
+    "target": "PRKACA",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1401938151884767,
+    "di_raw": 0.9647040814161301
+  },
+  {
+    "drug": "budesonide",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1473774629322333,
+    "di_raw": 0.9596170075237751
+  },
+  {
+    "drug": "buflomedil",
+    "target": "ADRA1A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.0867646549359546,
+    "di_raw": 0.9061718955636024
+  },
+  {
+    "drug": "buphenine",
+    "target": "ADRB2",
+    "expression_breadth": 0.3005932762030323,
+    "di_corrected": 1.1286996973219188,
+    "di_raw": 0.9496771022677422
+  },
+  {
+    "drug": "butabindide",
+    "target": "TPP2",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.1452153522534134,
+    "di_raw": 0.9658196903765202
+  },
+  {
+    "drug": "butein",
+    "target": "ACE",
+    "expression_breadth": 0.12261041529334213,
+    "di_corrected": 1.0454675356106766,
+    "di_raw": 0.8169249445199966
+  },
+  {
+    "drug": "buthionine-sulfoximine",
+    "target": "GCLM",
+    "expression_breadth": 0.9419907712590639,
+    "di_corrected": 1.1200791559850805,
+    "di_raw": 0.9619390480220318
+  },
+  {
+    "drug": "BW-B70C",
+    "target": "ALOX5",
+    "expression_breadth": 0.22148978246539222,
+    "di_corrected": 1.1225443958801469,
+    "di_raw": 0.9418949708342552
+  },
+  {
+    "drug": "calcifediol",
+    "target": "VDR",
+    "expression_breadth": 0.5735003295978905,
+    "di_corrected": 1.1097719989317438,
+    "di_raw": 0.9419886730611324
+  },
+  {
+    "drug": "calcipotriol",
+    "target": "VDR",
+    "expression_breadth": 0.5735003295978905,
+    "di_corrected": 1.018050785957772,
+    "di_raw": 0.8100839406251907
+  },
+  {
+    "drug": "calcitriol",
+    "target": "VDR",
+    "expression_breadth": 0.5735003295978905,
+    "di_corrected": 1.1580761145588514,
+    "di_raw": 0.9385299272835255
+  },
+  {
+    "drug": "camptothecin",
+    "target": "TOP1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1236651100123616,
+    "di_raw": 0.6744664311408997
+  },
+  {
+    "drug": "capecitabine",
+    "target": "TYMS",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 1.1076647996770772,
+    "di_raw": 0.9046223014593124
+  },
+  {
+    "drug": "carbetocin",
+    "target": "OXTR",
+    "expression_breadth": 0.19182597231377718,
+    "di_corrected": 1.1624173951806802,
+    "di_raw": 0.9671884849667549
+  },
+  {
+    "drug": "carbidopa",
+    "target": "DDC",
+    "expression_breadth": 0.13381674357284112,
+    "di_corrected": 1.1701426997816673,
+    "di_raw": 0.9266497045755386
+  },
+  {
+    "drug": "carbinoxamine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1544200178385906,
+    "di_raw": 0.9204845279455185
+  },
+  {
+    "drug": "carmofur",
+    "target": "TYMS",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 1.1298737689036014,
+    "di_raw": 0.924892470240593
+  },
+  {
+    "drug": "carmoxirole",
+    "target": "DRD2",
+    "expression_breadth": 0.06460118655240607,
+    "di_corrected": 1.1281645254876018,
+    "di_raw": 0.970620222389698
+  },
+  {
+    "drug": "carprofen",
+    "target": "PTGS2",
+    "expression_breadth": 0.2247857613711272,
+    "di_corrected": 1.126978369578676,
+    "di_raw": 0.9786238465458155
+  },
+  {
+    "drug": "CD-1530",
+    "target": "RARG",
+    "expression_breadth": 0.8668424522083059,
+    "di_corrected": 1.1099962497548044,
+    "di_raw": 0.749726265668869
+  },
+  {
+    "drug": "CD-437",
+    "target": "RARG",
+    "expression_breadth": 0.8668424522083059,
+    "di_corrected": 1.0616508407095209,
+    "di_raw": 0.7919558584690094
+  },
+  {
+    "drug": "cefazolin",
+    "target": "PON1",
+    "expression_breadth": 0.01120632827949901,
+    "di_corrected": 1.0816001076321342,
+    "di_raw": 0.9370463117957115
+  },
+  {
+    "drug": "cefdinir",
+    "target": "MPO",
+    "expression_breadth": 0.025708635464733027,
+    "di_corrected": 1.1116197485252473,
+    "di_raw": 0.9313887655735016
+  },
+  {
+    "drug": "cerulenin",
+    "target": "FASN",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.0402465244899468,
+    "di_raw": 0.779911532998085
+  },
+  {
+    "drug": "cetirizine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1386346699728844,
+    "di_raw": 0.9689098447561264
+  },
+  {
+    "drug": "CGP-13501",
+    "target": "GABBR1",
+    "expression_breadth": 0.7178642056690837,
+    "di_corrected": 1.1175229706201566,
+    "di_raw": 0.9641496501863003
+  },
+  {
+    "drug": "CGP-37157",
+    "target": "SLC8A1",
+    "expression_breadth": 0.17996044825313118,
+    "di_corrected": 1.112593308218152,
+    "di_raw": 0.9348747208714485
+  },
+  {
+    "drug": "CGP-52411",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.1315640685780775,
+    "di_raw": 0.9516543447971344
+  },
+  {
+    "drug": "CGP-71683",
+    "target": "NPY5R",
+    "expression_breadth": 0.014502307185234015,
+    "di_corrected": 1.0860968358024101,
+    "di_raw": 0.6963664591312408
+  },
+  {
+    "drug": "CGP-7930",
+    "target": "GABBR1",
+    "expression_breadth": 0.7178642056690837,
+    "di_corrected": 1.0871565934478808,
+    "di_raw": 0.9157608449459076
+  },
+  {
+    "drug": "chloramphenicol",
+    "target": "CD55",
+    "expression_breadth": 0.9222148978246539,
+    "di_corrected": 1.0611965770448106,
+    "di_raw": 0.8329681605100632
+  },
+  {
+    "drug": "chlormadinone-acetate",
+    "target": "PGR",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.15050051921798,
+    "di_raw": 0.9770416971296072
+  },
+  {
+    "drug": "chloroquine",
+    "target": "MRGPRX1",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.1438983096565791,
+    "di_raw": 0.9628112353384495
+  },
+  {
+    "drug": "chloroxine",
+    "target": "OPRK1",
+    "expression_breadth": 0.011865524060646011,
+    "di_corrected": 1.0772977364310004,
+    "di_raw": 0.8516677767038345
+  },
+  {
+    "drug": "CI-966",
+    "target": "SLC6A1",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.1405669323539689,
+    "di_raw": 0.96969691850245
+  },
+  {
+    "drug": "ciglitazone",
+    "target": "PPARG",
+    "expression_breadth": 0.4858272907053395,
+    "di_corrected": 1.1393221673271365,
+    "di_raw": 0.9787660595029593
+  },
+  {
+    "drug": "cilastatin",
+    "target": "DPEP1",
+    "expression_breadth": 0.07976268951878708,
+    "di_corrected": 1.1374921017198156,
+    "di_raw": 0.9584025964140892
+  },
+  {
+    "drug": "cilnidipine",
+    "target": "CACNA1B",
+    "expression_breadth": 0.03625576796308504,
+    "di_corrected": 1.1083684628073551,
+    "di_raw": 0.9368686154484749
+  },
+  {
+    "drug": "cinacalcet",
+    "target": "CASR",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.1013731688705661,
+    "di_raw": 0.9347245171666145
+  },
+  {
+    "drug": "cinalukast",
+    "target": "CYSLTR1",
+    "expression_breadth": 0.06855636123928807,
+    "di_corrected": 1.0953763602450897,
+    "di_raw": 0.9162695482373238
+  },
+  {
+    "drug": "cinanserin",
+    "target": "HTR2A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.140466405987068,
+    "di_raw": 0.9655958563089371
+  },
+  {
+    "drug": "cinchonine",
+    "target": "CYP2D6",
+    "expression_breadth": 0.011865524060646011,
+    "di_corrected": 1.118084295678802,
+    "di_raw": 0.9513694196939468
+  },
+  {
+    "drug": "ciprofibrate",
+    "target": "PPARA",
+    "expression_breadth": 0.47198417930125247,
+    "di_corrected": 1.128409772108735,
+    "di_raw": 0.9636615514755249
+  },
+  {
+    "drug": "cirazoline",
+    "target": "ADRA1A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.1350818261124804,
+    "di_raw": 0.9828810319304466
+  },
+  {
+    "drug": "CITCO",
+    "target": "NR1I3",
+    "expression_breadth": 0.003955174686882004,
+    "di_corrected": 1.1404242722207416,
+    "di_raw": 0.9771208744496107
+  },
+  {
+    "drug": "clarithromycin",
+    "target": "CYP3A4",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.1850423543184831,
+    "di_raw": 0.9341203644871712
+  },
+  {
+    "drug": "clemastine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.0988531268750092,
+    "di_raw": 0.9127167463302612
+  },
+  {
+    "drug": "clioquinol",
+    "target": "OPRK1",
+    "expression_breadth": 0.011865524060646011,
+    "di_corrected": 1.0971227987584902,
+    "di_raw": 0.9111456871032715
+  },
+  {
+    "drug": "clofibric-acid",
+    "target": "PPARA",
+    "expression_breadth": 0.47198417930125247,
+    "di_corrected": 1.1371207067843039,
+    "di_raw": 0.9466051571071148
+  },
+  {
+    "drug": "clomethiazole",
+    "target": "GABRA1",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.1187640569604387,
+    "di_raw": 0.931935228407383
+  },
+  {
+    "drug": "clomifene",
+    "target": "ESR1",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1275273764314853,
+    "di_raw": 0.9489068388938904
+  },
+  {
+    "drug": "clopidogrel",
+    "target": "P2RY12",
+    "expression_breadth": 0.0032959789057350032,
+    "di_corrected": 1.144568063594298,
+    "di_raw": 0.9091639667749405
+  },
+  {
+    "drug": "clorgiline",
+    "target": "MAOA",
+    "expression_breadth": 0.3216875411997363,
+    "di_corrected": 1.1807697722644792,
+    "di_raw": 0.9628406539559364
+  },
+  {
+    "drug": "CO-101244",
+    "target": "GRIN2B",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.089848753014794,
+    "di_raw": 0.9243245646357536
+  },
+  {
+    "drug": "cortisone",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1032895126992632,
+    "di_raw": 0.9104447215795517
+  },
+  {
+    "drug": "cortisone-acetate",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1600598577982049,
+    "di_raw": 0.9680676944553852
+  },
+  {
+    "drug": "CP-724714",
+    "target": "ERBB2",
+    "expression_breadth": 0.8767303889255109,
+    "di_corrected": 1.1346463206531212,
+    "di_raw": 0.9595759510993958
+  },
+  {
+    "drug": "CP-93129",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.1309897361986267,
+    "di_raw": 0.9705070834606886
+  },
+  {
+    "drug": "CP-94253",
+    "target": "HTR1B",
+    "expression_breadth": 0.008569545154911009,
+    "di_corrected": 1.1348674116363304,
+    "di_raw": 0.9419318474829197
+  },
+  {
+    "drug": "CPCCOEt",
+    "target": "GRM1",
+    "expression_breadth": 0.003955174686882004,
+    "di_corrected": 1.1638320563327273,
+    "di_raw": 0.986340120434761
+  },
+  {
+    "drug": "cromakalim",
+    "target": "KCNJ8",
+    "expression_breadth": 0.07317073170731707,
+    "di_corrected": 1.1271355298240535,
+    "di_raw": 0.9617788307368755
+  },
+  {
+    "drug": "CS-110266",
+    "target": "SLC6A3",
+    "expression_breadth": 0.017139090309822018,
+    "di_corrected": 1.2003744936735905,
+    "di_raw": 0.7845681011676788
+  },
+  {
+    "drug": "CV-1808",
+    "target": "ADORA2A",
+    "expression_breadth": 0.2129202373104812,
+    "di_corrected": 1.0838400594294113,
+    "di_raw": 0.8961301296949387
+  },
+  {
+    "drug": "cycloheximide",
+    "target": "RPL3",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0734704021364945,
+    "di_raw": 0.7701760828495026
+  },
+  {
+    "drug": "cyclopiazonic-acid",
+    "target": "ATP2A1",
+    "expression_breadth": 0.16809492419248517,
+    "di_corrected": 1.1556399566660798,
+    "di_raw": 0.9575751088559628
+  },
+  {
+    "drug": "CYT-997",
+    "target": "TUBB",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1173270544579743,
+    "di_raw": 0.8773431926965714
+  },
+  {
+    "drug": "D-64131",
+    "target": "TUBB",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1378612536353252,
+    "di_raw": 0.8851950541138649
+  },
+  {
+    "drug": "dactinomycin",
+    "target": "POLR2A",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.0347256829473008,
+    "di_raw": 0.5061191320419312
+  },
+  {
+    "drug": "dalcetrapib",
+    "target": "CETP",
+    "expression_breadth": 0.014502307185234015,
+    "di_corrected": 1.109530918281598,
+    "di_raw": 0.9306377917528152
+  },
+  {
+    "drug": "dapsone",
+    "target": "DHFR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0711422293701027,
+    "di_raw": 0.8971498683094978
+  },
+  {
+    "drug": "DAU-5884",
+    "target": "CHRM3",
+    "expression_breadth": 0.06328279499011207,
+    "di_corrected": 1.0815740137489744,
+    "di_raw": 0.8939996138215065
+  },
+  {
+    "drug": "DCPIB",
+    "target": "SLC1A2",
+    "expression_breadth": 0.035596572181938034,
+    "di_corrected": 1.1248456642087805,
+    "di_raw": 0.9580199308693409
+  },
+  {
+    "drug": "deferiprone",
+    "target": "UGT1A6",
+    "expression_breadth": 0.27158866183256425,
+    "di_corrected": 1.1275496592782372,
+    "di_raw": 0.9894885756075382
+  },
+  {
+    "drug": "deforolimus",
+    "target": "MTOR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0922527356273768,
+    "di_raw": 0.8648530840873718
+  },
+  {
+    "drug": "deoxycorticosterone-acetate",
+    "target": "NR3C2",
+    "expression_breadth": 0.035596572181938034,
+    "di_corrected": 1.1474565036837978,
+    "di_raw": 0.9884864836931229
+  },
+  {
+    "drug": "deracoxib",
+    "target": "PTGS2",
+    "expression_breadth": 0.2247857613711272,
+    "di_corrected": 1.1380406976873392,
+    "di_raw": 0.9719529338181019
+  },
+  {
+    "drug": "desloratadine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.0590387045219973,
+    "di_raw": 0.8745850324630737
+  },
+  {
+    "drug": "desmethylclozapine",
+    "target": "HTR2C",
+    "expression_breadth": 0.01054713249835201,
+    "di_corrected": 1.1217201213140575,
+    "di_raw": 0.9492218717932701
+  },
+  {
+    "drug": "desoxypeganine",
+    "target": "ACHE",
+    "expression_breadth": 0.08965062623599208,
+    "di_corrected": 1.1248249973456792,
+    "di_raw": 0.966377642005682
+  },
+  {
+    "drug": "DH-97",
+    "target": "MTNR1B",
+    "expression_breadth": 0.0032959789057350032,
+    "di_corrected": 1.161220216000903,
+    "di_raw": 0.9897116534411907
+  },
+  {
+    "drug": "diarylpropionitrile",
+    "target": "ESR2",
+    "expression_breadth": 0.03164139749505603,
+    "di_corrected": 1.1289460291913116,
+    "di_raw": 0.9677682295441628
+  },
+  {
+    "drug": "didanosine",
+    "target": "PNP",
+    "expression_breadth": 0.992748846407383,
+    "di_corrected": 1.1334985644607714,
+    "di_raw": 0.9645452313125134
+  },
+  {
+    "drug": "dienestrol",
+    "target": "ESR1",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1605004933386764,
+    "di_raw": 0.9801933001726866
+  },
+  {
+    "drug": "digitoxigenin",
+    "target": "ATP1A1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1344412103493724,
+    "di_raw": 0.5861603915691376
+  },
+  {
+    "drug": "digoxin",
+    "target": "ATP1A1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1151159620722293,
+    "di_raw": 0.6888968050479889
+  },
+  {
+    "drug": "dilazep",
+    "target": "SLC29A1",
+    "expression_breadth": 0.995385629531971,
+    "di_corrected": 1.0290811618114089,
+    "di_raw": 0.8377605974674225
+  },
+  {
+    "drug": "dimercaptosuccinic-acid",
+    "target": "DNMT1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1184136581089188,
+    "di_raw": 0.9633272215723991
+  },
+  {
+    "drug": "diphemanil",
+    "target": "CHRM3",
+    "expression_breadth": 0.06328279499011207,
+    "di_corrected": 1.1231839599406472,
+    "di_raw": 0.9546754956245422
+  },
+  {
+    "drug": "diphenhydramine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1937554951636704,
+    "di_raw": 0.9676198288798332
+  },
+  {
+    "drug": "DMAB-anabaseine",
+    "target": "CHRNA7",
+    "expression_breadth": 0.08701384311140409,
+    "di_corrected": 1.1435887509480804,
+    "di_raw": 0.9671532660722733
+  },
+  {
+    "drug": "DMeOB",
+    "target": "GRM5",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.119553416340141,
+    "di_raw": 0.906354121863842
+  },
+  {
+    "drug": "dolasetron",
+    "target": "HTR3A",
+    "expression_breadth": 0.026367831245880026,
+    "di_corrected": 1.1650399928905952,
+    "di_raw": 0.944117546081543
+  },
+  {
+    "drug": "donepezil",
+    "target": "ACHE",
+    "expression_breadth": 0.08965062623599208,
+    "di_corrected": 1.1285886404832268,
+    "di_raw": 0.9617252349853516
+  },
+  {
+    "drug": "doxercalciferol",
+    "target": "VDR",
+    "expression_breadth": 0.5735003295978905,
+    "di_corrected": 1.1502186906305378,
+    "di_raw": 0.9401299469172955
+  },
+  {
+    "drug": "doxorubicin",
+    "target": "TOP2A",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.0962765636853988,
+    "di_raw": 0.622808963060379
+  },
+  {
+    "drug": "doxycycline",
+    "target": "MMP8",
+    "expression_breadth": 0.04284772577455504,
+    "di_corrected": 1.06163759561518,
+    "di_raw": 0.9060591831803322
+  },
+  {
+    "drug": "doxylamine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.160346032916539,
+    "di_raw": 0.9940349012613297
+  },
+  {
+    "drug": "DPO-1",
+    "target": "KCNA5",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.1219698879360407,
+    "di_raw": 0.9416959024965763
+  },
+  {
+    "drug": "DUP-697",
+    "target": "PTGS2",
+    "expression_breadth": 0.2247857613711272,
+    "di_corrected": 1.1644171870296733,
+    "di_raw": 0.9758269432932138
+  },
+  {
+    "drug": "dydrogesterone",
+    "target": "PGR",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.1234352717421432,
+    "di_raw": 0.9645919539034367
+  },
+  {
+    "drug": "EBPC",
+    "target": "AKR1B1",
+    "expression_breadth": 0.9070533948582729,
+    "di_corrected": 1.1369411862476277,
+    "di_raw": 0.9677500799298286
+  },
+  {
+    "drug": "ebselen",
+    "target": "ALB",
+    "expression_breadth": 0.03098220171390903,
+    "di_corrected": 1.1116882470443628,
+    "di_raw": 0.9384236671030521
+  },
+  {
+    "drug": "edaravone",
+    "target": "BCL2",
+    "expression_breadth": 0.27356624917600525,
+    "di_corrected": 1.1378409753834868,
+    "di_raw": 0.9599133469164371
+  },
+  {
+    "drug": "elesclomol",
+    "target": "HSPA1A",
+    "expression_breadth": 0.8213579433091628,
+    "di_corrected": 1.1317735369242163,
+    "di_raw": 0.921024776995182
+  },
+  {
+    "drug": "embelin",
+    "target": "XIAP",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 1.1357663931934558,
+    "di_raw": 0.9558085277676582
+  },
+  {
+    "drug": "EMD-386088",
+    "target": "HTR6",
+    "expression_breadth": 0.008569545154911009,
+    "di_corrected": 1.1504180429730686,
+    "di_raw": 0.9756033830344677
+  },
+  {
+    "drug": "EMD-66684",
+    "target": "AGTR1",
+    "expression_breadth": 0.047462096242584045,
+    "di_corrected": 1.1402501875775732,
+    "di_raw": 0.9597090221941471
+  },
+  {
+    "drug": "emetine",
+    "target": "RPS2",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.039138492306812,
+    "di_raw": 0.6829707026481628
+  },
+  {
+    "drug": "enalapril",
+    "target": "ACE",
+    "expression_breadth": 0.12261041529334213,
+    "di_corrected": 1.1042618245056384,
+    "di_raw": 0.919881135225296
+  },
+  {
+    "drug": "enalaprilat",
+    "target": "ACE",
+    "expression_breadth": 0.12261041529334213,
+    "di_corrected": 1.1503522875365613,
+    "di_raw": 0.9570512697100639
+  },
+  {
+    "drug": "entacapone",
+    "target": "COMT",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.0901382403201114,
+    "di_raw": 0.9231602102518082
+  },
+  {
+    "drug": "enzalutamide",
+    "target": "AR",
+    "expression_breadth": 0.1008569545154911,
+    "di_corrected": 1.1169873776872343,
+    "di_raw": 0.9554066546261311
+  },
+  {
+    "drug": "eplerenone",
+    "target": "NR3C2",
+    "expression_breadth": 0.035596572181938034,
+    "di_corrected": 1.1822454839227883,
+    "di_raw": 0.9778185170143843
+  },
+  {
+    "drug": "eprosartan",
+    "target": "AGTR1",
+    "expression_breadth": 0.047462096242584045,
+    "di_corrected": 1.1529892900064638,
+    "di_raw": 0.9784159455448389
+  },
+  {
+    "drug": "equilin",
+    "target": "HSD17B1",
+    "expression_breadth": 0.13974950560316415,
+    "di_corrected": 1.163674781587818,
+    "di_raw": 0.9705070219933987
+  },
+  {
+    "drug": "ER-27319",
+    "target": "SYK",
+    "expression_breadth": 0.3961766644693474,
+    "di_corrected": 1.182841768262987,
+    "di_raw": 0.6263559758663177
+  },
+  {
+    "drug": "erastin",
+    "target": "VDAC2",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.146050741978648,
+    "di_raw": 0.9400742910802364
+  },
+  {
+    "drug": "erbstatin-analog",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.0771655649929375,
+    "di_raw": 0.877115473151207
+  },
+  {
+    "drug": "erythromycin",
+    "target": "MLNR",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.1377851125893157,
+    "di_raw": 0.9618883058428764
+  },
+  {
+    "drug": "escitalopram",
+    "target": "SLC6A4",
+    "expression_breadth": 0.015161502966381015,
+    "di_corrected": 1.154337442639756,
+    "di_raw": 0.9541481100022793
+  },
+  {
+    "drug": "esmolol",
+    "target": "ADRB1",
+    "expression_breadth": 0.034278180619644036,
+    "di_corrected": 1.1479671631076287,
+    "di_raw": 0.9992931914166547
+  },
+  {
+    "drug": "esomeprazole",
+    "target": "ATP4A",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.0934055442503565,
+    "di_raw": 0.9297366365790367
+  },
+  {
+    "drug": "estradiol-benzoate",
+    "target": "ESR1",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.0997972987697149,
+    "di_raw": 0.9072476774454117
+  },
+  {
+    "drug": "estradiol-cypionate",
+    "target": "ESR1",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1469002616261945,
+    "di_raw": 0.9432890824973583
+  },
+  {
+    "drug": "estradiol-valerate",
+    "target": "ESR1",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1359170907278973,
+    "di_raw": 0.944389745593071
+  },
+  {
+    "drug": "ethisterone",
+    "target": "TYR",
+    "expression_breadth": 0.04680290046143705,
+    "di_corrected": 1.1870999590241664,
+    "di_raw": 0.9957040953449905
+  },
+  {
+    "drug": "ethotoin",
+    "target": "SCN5A",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.111270673904043,
+    "di_raw": 0.9329454973340034
+  },
+  {
+    "drug": "etodolac",
+    "target": "PTGS2",
+    "expression_breadth": 0.2247857613711272,
+    "di_corrected": 1.1633204241883024,
+    "di_raw": 0.9680885002017021
+  },
+  {
+    "drug": "etomoxir",
+    "target": "CPT1A",
+    "expression_breadth": 0.8938694792353329,
+    "di_corrected": 1.1526631754008592,
+    "di_raw": 0.944087278097868
+  },
+  {
+    "drug": "eugenol",
+    "target": "AR",
+    "expression_breadth": 0.1008569545154911,
+    "di_corrected": 1.104144368208595,
+    "di_raw": 0.9326955750584602
+  },
+  {
+    "drug": "everolimus",
+    "target": "MTOR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0313823578257888,
+    "di_raw": 0.7022087275981903
+  },
+  {
+    "drug": "evodiamine",
+    "target": "TRPV1",
+    "expression_breadth": 0.14831905075807514,
+    "di_corrected": 1.147513819920452,
+    "di_raw": 0.9546358548104763
+  },
+  {
+    "drug": "EX-527",
+    "target": "SIRT1",
+    "expression_breadth": 0.979564930784443,
+    "di_corrected": 1.1288925739782347,
+    "di_raw": 0.9430418945848942
+  },
+  {
+    "drug": "exemestane",
+    "target": "CYP19A1",
+    "expression_breadth": 0.025708635464733027,
+    "di_corrected": 1.062991747587885,
+    "di_raw": 0.8866594731807709
+  },
+  {
+    "drug": "famotidine",
+    "target": "HRH2",
+    "expression_breadth": 0.07580751483190508,
+    "di_corrected": 1.2501460263606654,
+    "di_raw": 0.9626512303948402
+  },
+  {
+    "drug": "fananserin",
+    "target": "HTR2A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.1104511674475075,
+    "di_raw": 0.9535238668322563
+  },
+  {
+    "drug": "febuxostat",
+    "target": "XDH",
+    "expression_breadth": 0.0982201713909031,
+    "di_corrected": 1.141287412510044,
+    "di_raw": 0.9410437420010567
+  },
+  {
+    "drug": "felodipine",
+    "target": "CFTR",
+    "expression_breadth": 0.06921555702043507,
+    "di_corrected": 1.1168891193766952,
+    "di_raw": 0.9160400629043579
+  },
+  {
+    "drug": "fenbendazole",
+    "target": "TUBB",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.138403348148937,
+    "di_raw": 0.9113887622952461
+  },
+  {
+    "drug": "fenobam",
+    "target": "GRM5",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.1550452655424586,
+    "di_raw": 0.9661571756005287
+  },
+  {
+    "drug": "fenoterol",
+    "target": "ADRB2",
+    "expression_breadth": 0.3005932762030323,
+    "di_corrected": 1.1171737721940258,
+    "di_raw": 0.9494751468300819
+  },
+  {
+    "drug": "fenretinide",
+    "target": "RARA",
+    "expression_breadth": 0.9531970995385629,
+    "di_corrected": 1.1489737365521613,
+    "di_raw": 0.8983058482408524
+  },
+  {
+    "drug": "fexaramine",
+    "target": "NR1H4",
+    "expression_breadth": 0.03625576796308504,
+    "di_corrected": 1.0982830594708113,
+    "di_raw": 0.9158133044838905
+  },
+  {
+    "drug": "fexofenadine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1312497412346434,
+    "di_raw": 0.9596339985728264
+  },
+  {
+    "drug": "FGIN-1-27",
+    "target": "TSPO",
+    "expression_breadth": 0.954515491100857,
+    "di_corrected": 1.1219879111232829,
+    "di_raw": 0.9535637199878693
+  },
+  {
+    "drug": "FGIN-1-43",
+    "target": "TSPO",
+    "expression_breadth": 0.954515491100857,
+    "di_corrected": 1.1448431210558607,
+    "di_raw": 0.973982946947217
+  },
+  {
+    "drug": "FIT",
+    "target": "OPRD1",
+    "expression_breadth": 0.04152933421226104,
+    "di_corrected": 1.0303376455512017,
+    "di_raw": 0.8318608105182648
+  },
+  {
+    "drug": "FK-866",
+    "target": "NAMPT",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1040579913206607,
+    "di_raw": 0.9376891031861305
+  },
+  {
+    "drug": "floxuridine",
+    "target": "TYMS",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 1.0753037494264954,
+    "di_raw": 0.8718078583478928
+  },
+  {
+    "drug": "flubendazole",
+    "target": "TUBB",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0255041352034862,
+    "di_raw": 0.795555979013443
+  },
+  {
+    "drug": "fluconazole",
+    "target": "CYP51A1",
+    "expression_breadth": 0.989452867501648,
+    "di_corrected": 1.1589044148948964,
+    "di_raw": 0.9734454359859228
+  },
+  {
+    "drug": "flucytosine",
+    "target": "DNMT1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.158632214111167,
+    "di_raw": 0.9835930168628693
+  },
+  {
+    "drug": "fludrocortisone-acetate",
+    "target": "NR3C2",
+    "expression_breadth": 0.035596572181938034,
+    "di_corrected": 1.0830468451658322,
+    "di_raw": 0.8624496608972549
+  },
+  {
+    "drug": "flunisolide",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.138333813196928,
+    "di_raw": 0.9239139407873154
+  },
+  {
+    "drug": "fluorometholone",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.0898395089447876,
+    "di_raw": 0.8781474381685257
+  },
+  {
+    "drug": "fluvastatin",
+    "target": "HMGCR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1002419563048305,
+    "di_raw": 0.8766984269022942
+  },
+  {
+    "drug": "fluvoxamine",
+    "target": "SLC6A4",
+    "expression_breadth": 0.015161502966381015,
+    "di_corrected": 1.1197876419403578,
+    "di_raw": 0.9346601217985153
+  },
+  {
+    "drug": "formestane",
+    "target": "CYP19A1",
+    "expression_breadth": 0.025708635464733027,
+    "di_corrected": 1.168802470942888,
+    "di_raw": 0.973351463675499
+  },
+  {
+    "drug": "formoterol",
+    "target": "ADRB2",
+    "expression_breadth": 0.3005932762030323,
+    "di_corrected": 1.170121935713082,
+    "di_raw": 0.9246350824832916
+  },
+  {
+    "drug": "fosinopril",
+    "target": "ACE",
+    "expression_breadth": 0.12261041529334213,
+    "di_corrected": 1.116113066009261,
+    "di_raw": 0.9253135919570923
+  },
+  {
+    "drug": "fostamatinib",
+    "target": "SYK",
+    "expression_breadth": 0.3961766644693474,
+    "di_corrected": 1.103877457206932,
+    "di_raw": 0.9089394435286522
+  },
+  {
+    "drug": "FR-139317",
+    "target": "EDNRA",
+    "expression_breadth": 0.07514831905075807,
+    "di_corrected": 1.1538524333129931,
+    "di_raw": 0.9941561953164637
+  },
+  {
+    "drug": "GANT-58",
+    "target": "GLI1",
+    "expression_breadth": 0.13711272247857614,
+    "di_corrected": 1.1337809550506748,
+    "di_raw": 0.9542941153049469
+  },
+  {
+    "drug": "GBR-13069",
+    "target": "SLC6A3",
+    "expression_breadth": 0.017139090309822018,
+    "di_corrected": 1.1233708985537763,
+    "di_raw": 0.9553292766213417
+  },
+  {
+    "drug": "GDC-0879",
+    "target": "BRAF",
+    "expression_breadth": 0.9294660514172709,
+    "di_corrected": 1.1821279690579982,
+    "di_raw": 0.9565116837620735
+  },
+  {
+    "drug": "gedunin",
+    "target": "HSP90AA1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0205411673299323,
+    "di_raw": 0.8547148257493973
+  },
+  {
+    "drug": "gefitinib",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.088650053211543,
+    "di_raw": 0.9312198236584663
+  },
+  {
+    "drug": "geldanamycin",
+    "target": "HSP90AA1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0711755293551999,
+    "di_raw": 0.7933934479951859
+  },
+  {
+    "drug": "gossypol",
+    "target": "BCL2",
+    "expression_breadth": 0.27356624917600525,
+    "di_corrected": 1.1330596455466493,
+    "di_raw": 0.9221559911966324
+  },
+  {
+    "drug": "GR-103691",
+    "target": "DRD3",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.010495761179707,
+    "di_raw": 0.8063372224569321
+  },
+  {
+    "drug": "GR-113808",
+    "target": "HTR4",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.1250584183930499,
+    "di_raw": 0.9269346445798874
+  },
+  {
+    "drug": "GR-235",
+    "target": "NR1H4",
+    "expression_breadth": 0.03625576796308504,
+    "di_corrected": 1.1051248404702814,
+    "di_raw": 0.9324999675154686
+  },
+  {
+    "drug": "granisetron",
+    "target": "HTR3A",
+    "expression_breadth": 0.026367831245880026,
+    "di_corrected": 1.1101148392218083,
+    "di_raw": 0.88069137185812
+  },
+  {
+    "drug": "griseofulvin",
+    "target": "KRT12",
+    "expression_breadth": 0.004614370468029005,
+    "di_corrected": 1.0111810340286174,
+    "di_raw": 0.858505368232727
+  },
+  {
+    "drug": "GS-39783",
+    "target": "GABBR1",
+    "expression_breadth": 0.7178642056690837,
+    "di_corrected": 1.1094085354956762,
+    "di_raw": 0.9626339040696621
+  },
+  {
+    "drug": "GW-0742",
+    "target": "PPARD",
+    "expression_breadth": 0.9452867501647989,
+    "di_corrected": 1.144111734525628,
+    "di_raw": 0.9669646844267845
+  },
+  {
+    "drug": "GW-1929",
+    "target": "PPARG",
+    "expression_breadth": 0.4858272907053395,
+    "di_corrected": 1.165708116777077,
+    "di_raw": 0.9332158416509628
+  },
+  {
+    "drug": "GW-311616",
+    "target": "ELANE",
+    "expression_breadth": 0.017139090309822018,
+    "di_corrected": 1.1166642059567002,
+    "di_raw": 0.9622288905084133
+  },
+  {
+    "drug": "GW-405833",
+    "target": "CNR2",
+    "expression_breadth": 0.04087013843111404,
+    "di_corrected": 1.1001467080845004,
+    "di_raw": 0.8789221867918968
+  },
+  {
+    "drug": "GW-4064",
+    "target": "NR1H4",
+    "expression_breadth": 0.03625576796308504,
+    "di_corrected": 1.155120152497997,
+    "di_raw": 0.9866789020597935
+  },
+  {
+    "drug": "GW-441756",
+    "target": "NTRK1",
+    "expression_breadth": 0.05009887936717205,
+    "di_corrected": 1.124446045038255,
+    "di_raw": 0.9275478646159172
+  },
+  {
+    "drug": "GW-6471",
+    "target": "PPARA",
+    "expression_breadth": 0.47198417930125247,
+    "di_corrected": 1.0999863140337363,
+    "di_raw": 0.9323112815618515
+  },
+  {
+    "drug": "GW-7647",
+    "target": "PPARA",
+    "expression_breadth": 0.47198417930125247,
+    "di_corrected": 1.2095509344250768,
+    "di_raw": 0.9229644760489464
+  },
+  {
+    "drug": "halcinonide",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1500360699454688,
+    "di_raw": 0.9503827840089798
+  },
+  {
+    "drug": "hexamethylenebisacetamide",
+    "target": "AKT1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1795766918204351,
+    "di_raw": 0.926394484937191
+  },
+  {
+    "drug": "hexylcaine",
+    "target": "SCN5A",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.0929758503488505,
+    "di_raw": 0.9056025072932243
+  },
+  {
+    "drug": "hexylresorcinol",
+    "target": "TYR",
+    "expression_breadth": 0.04680290046143705,
+    "di_corrected": 1.1110759939191697,
+    "di_raw": 0.9407083354890347
+  },
+  {
+    "drug": "HMN-214",
+    "target": "PLK1",
+    "expression_breadth": 0.995385629531971,
+    "di_corrected": 1.1468885192787723,
+    "di_raw": 0.9534984827041626
+  },
+  {
+    "drug": "homatropine",
+    "target": "CHRM1",
+    "expression_breadth": 0.016479894528675015,
+    "di_corrected": 1.1003390117444438,
+    "di_raw": 0.9184466078877449
+  },
+  {
+    "drug": "homochlorcyclizine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.0962852438707564,
+    "di_raw": 0.9443122819066048
+  },
+  {
+    "drug": "homoharringtonine",
+    "target": "RPL3",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0518940776466312,
+    "di_raw": 0.49711835384368896
+  },
+  {
+    "drug": "HTMT",
+    "target": "HRH4",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.1526171808947494,
+    "di_raw": 0.959072407335043
+  },
+  {
+    "drug": "hydrocortisone-acetate",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.0601417769501806,
+    "di_raw": 0.8081027120351791
+  },
+  {
+    "drug": "hydrocortisone-valerate",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1362889869274868,
+    "di_raw": 0.9668824970722198
+  },
+  {
+    "drug": "IBC-293",
+    "target": "HCAR3",
+    "expression_breadth": 0.07382992748846408,
+    "di_corrected": 1.1611152269730804,
+    "di_raw": 0.9674584940075874
+  },
+  {
+    "drug": "icariin",
+    "target": "PDE5A",
+    "expression_breadth": 0.2920237310481213,
+    "di_corrected": 1.1395117789682705,
+    "di_raw": 0.9584670886397362
+  },
+  {
+    "drug": "ICI-162846",
+    "target": "HRH2",
+    "expression_breadth": 0.07580751483190508,
+    "di_corrected": 1.173907360484659,
+    "di_raw": 0.9667990580201149
+  },
+  {
+    "drug": "idarubicin",
+    "target": "TOP2A",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.0841208880716713,
+    "di_raw": 0.8432662934064865
+  },
+  {
+    "drug": "ifenprodil",
+    "target": "GRIN2B",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.1236259129267543,
+    "di_raw": 0.9365251138806343
+  },
+  {
+    "drug": "IKK-16",
+    "target": "IKBKB",
+    "expression_breadth": 0.994726433750824,
+    "di_corrected": 1.14101422224137,
+    "di_raw": 0.729827493429184
+  },
+  {
+    "drug": "IKK-2-inhibitor",
+    "target": "IKBKB",
+    "expression_breadth": 0.994726433750824,
+    "di_corrected": 1.1044528064590151,
+    "di_raw": 0.9479783251881599
+  },
+  {
+    "drug": "IKK-2-inhibitor-V",
+    "target": "IKBKB",
+    "expression_breadth": 0.994726433750824,
+    "di_corrected": 1.1160525528232204,
+    "di_raw": 0.7714455276727676
+  },
+  {
+    "drug": "immethridine",
+    "target": "HRH3",
+    "expression_breadth": 0.027686222808174028,
+    "di_corrected": 1.1154029997377213,
+    "di_raw": 0.9607390761375427
+  },
+  {
+    "drug": "INCA-6",
+    "target": "NFATC1",
+    "expression_breadth": 0.3085036255767963,
+    "di_corrected": 1.1486075840576446,
+    "di_raw": 0.9706034529954195
+  },
+  {
+    "drug": "indole-3-carbinol",
+    "target": "AHR",
+    "expression_breadth": 0.7303889255108768,
+    "di_corrected": 1.1376006079818686,
+    "di_raw": 0.9606355987489223
+  },
+  {
+    "drug": "ipidacrine",
+    "target": "ACHE",
+    "expression_breadth": 0.08965062623599208,
+    "di_corrected": 1.1679162079847583,
+    "di_raw": 0.9419641569256783
+  },
+  {
+    "drug": "ipsapirone",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.1293532990490152,
+    "di_raw": 0.9636033363640308
+  },
+  {
+    "drug": "IRL-2500",
+    "target": "EDNRB",
+    "expression_breadth": 0.1008569545154911,
+    "di_corrected": 1.1315828001231134,
+    "di_raw": 0.9694693814963102
+  },
+  {
+    "drug": "irsogladine",
+    "target": "PDE4A",
+    "expression_breadth": 0.3691496374423204,
+    "di_corrected": 1.07952491421017,
+    "di_raw": 0.9223054125905037
+  },
+  {
+    "drug": "isoflupredone-acetate",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1151262456239857,
+    "di_raw": 0.8721072673797607
+  },
+  {
+    "drug": "isoliquiritigenin",
+    "target": "GABBR1",
+    "expression_breadth": 0.7178642056690837,
+    "di_corrected": 1.0602293060144992,
+    "di_raw": 0.8665485978126526
+  },
+  {
+    "drug": "isoxsuprine",
+    "target": "ADRB2",
+    "expression_breadth": 0.3005932762030323,
+    "di_corrected": 1.1533856366609472,
+    "di_raw": 0.9639001674950123
+  },
+  {
+    "drug": "ispinesib",
+    "target": "KIF11",
+    "expression_breadth": 0.982201713909031,
+    "di_corrected": 1.0975718748378644,
+    "di_raw": 0.8183531910181046
+  },
+  {
+    "drug": "ITE",
+    "target": "AHR",
+    "expression_breadth": 0.7303889255108768,
+    "di_corrected": 1.13507152211662,
+    "di_raw": 0.9562316201627254
+  },
+  {
+    "drug": "JAK3-inhibitor-V",
+    "target": "JAK3",
+    "expression_breadth": 0.13909030982201714,
+    "di_corrected": 1.1263215504005073,
+    "di_raw": 0.9614689722657204
+  },
+  {
+    "drug": "JLK-6",
+    "target": "PSEN1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1042710638015598,
+    "di_raw": 0.8963478282094002
+  },
+  {
+    "drug": "JNJ-10191584",
+    "target": "HRH4",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.1725056827417033,
+    "di_raw": 0.9756458941847086
+  },
+  {
+    "drug": "JNJ-16259685",
+    "target": "GRM1",
+    "expression_breadth": 0.003955174686882004,
+    "di_corrected": 1.1466540613039593,
+    "di_raw": 0.9676002152264118
+  },
+  {
+    "drug": "JNJ-38877605",
+    "target": "MET",
+    "expression_breadth": 0.7738958470665788,
+    "di_corrected": 1.095209320099436,
+    "di_raw": 0.9311444386839867
+  },
+  {
+    "drug": "JTC-801",
+    "target": "OPRL1",
+    "expression_breadth": 0.06394199077125906,
+    "di_corrected": 1.0962874032443115,
+    "di_raw": 0.657287061214447
+  },
+  {
+    "drug": "JTE-907",
+    "target": "CNR2",
+    "expression_breadth": 0.04087013843111404,
+    "di_corrected": 1.0800609860518318,
+    "di_raw": 0.898527018725872
+  },
+  {
+    "drug": "JX-401",
+    "target": "MAPK14",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.073656083167585,
+    "di_raw": 0.910534456372261
+  },
+  {
+    "drug": "JZL-184",
+    "target": "MGLL",
+    "expression_breadth": 0.6796308503625577,
+    "di_corrected": 1.142201641179112,
+    "di_raw": 0.953168485313654
+  },
+  {
+    "drug": "K-858",
+    "target": "KIF11",
+    "expression_breadth": 0.982201713909031,
+    "di_corrected": 1.1182628367283027,
+    "di_raw": 0.9425690323114395
+  },
+  {
+    "drug": "ketoconazole",
+    "target": "KCNA10",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.0986019983288857,
+    "di_raw": 0.9411290474236012
+  },
+  {
+    "drug": "ketotifen",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1460595042903492,
+    "di_raw": 0.9524225182831287
+  },
+  {
+    "drug": "KF-38789",
+    "target": "SELP",
+    "expression_breadth": 0.013183915622940013,
+    "di_corrected": 1.1167102557131316,
+    "di_raw": 0.8631584793329239
+  },
+  {
+    "drug": "KI-8751",
+    "target": "KDR",
+    "expression_breadth": 0.04482531311799604,
+    "di_corrected": 1.1325857938916712,
+    "di_raw": 0.8885586187243462
+  },
+  {
+    "drug": "KN-93",
+    "target": "CAMK2A",
+    "expression_breadth": 0.011865524060646011,
+    "di_corrected": 1.0694877746299043,
+    "di_raw": 0.8541425615549088
+  },
+  {
+    "drug": "KU-0063794",
+    "target": "MTOR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.032832227799822,
+    "di_raw": 0.7688326686620712
+  },
+  {
+    "drug": "KU-60019",
+    "target": "ATM",
+    "expression_breadth": 0.978905735003296,
+    "di_corrected": 1.0653335277690639,
+    "di_raw": 0.9067252054810524
+  },
+  {
+    "drug": "L-152804",
+    "target": "NPY5R",
+    "expression_breadth": 0.014502307185234015,
+    "di_corrected": 1.122813054510729,
+    "di_raw": 0.9682217538356781
+  },
+  {
+    "drug": "L-161982",
+    "target": "PTGER4",
+    "expression_breadth": 0.24456163480553725,
+    "di_corrected": 1.1599826231614092,
+    "di_raw": 0.9570595063269138
+  },
+  {
+    "drug": "L-165041",
+    "target": "PPARD",
+    "expression_breadth": 0.9452867501647989,
+    "di_corrected": 1.1025695886225002,
+    "di_raw": 0.9423596598207951
+  },
+  {
+    "drug": "L-168049",
+    "target": "GCGR",
+    "expression_breadth": 0.005273566249176005,
+    "di_corrected": 1.0750835037818571,
+    "di_raw": 0.8703080862760544
+  },
+  {
+    "drug": "L-655240",
+    "target": "PTGES",
+    "expression_breadth": 0.4871456822676335,
+    "di_corrected": 1.1298492792019597,
+    "di_raw": 0.9302986189723015
+  },
+  {
+    "drug": "L-690330",
+    "target": "IMPA1",
+    "expression_breadth": 0.990771259063942,
+    "di_corrected": 1.1748712886456545,
+    "di_raw": 0.9317463785409927
+  },
+  {
+    "drug": "L-701252",
+    "target": "GRIN1",
+    "expression_breadth": 0.0903098220171391,
+    "di_corrected": 1.2784500195316215,
+    "di_raw": 0.9549411348998547
+  },
+  {
+    "drug": "L-733060",
+    "target": "TACR1",
+    "expression_breadth": 0.013183915622940013,
+    "di_corrected": 1.0823898653089374,
+    "di_raw": 0.9066378995776176
+  },
+  {
+    "drug": "lacidipine",
+    "target": "CACNA1C",
+    "expression_breadth": 0.11865524060646011,
+    "di_corrected": 1.0853475555672878,
+    "di_raw": 0.897161528468132
+  },
+  {
+    "drug": "latanoprost",
+    "target": "PTGFR",
+    "expression_breadth": 0.1008569545154911,
+    "di_corrected": 1.1599662125650585,
+    "di_raw": 0.9219954609870911
+  },
+  {
+    "drug": "LE-135",
+    "target": "RARB",
+    "expression_breadth": 0.1951219512195122,
+    "di_corrected": 1.1509408062590771,
+    "di_raw": 0.9158558994531631
+  },
+  {
+    "drug": "lenalidomide",
+    "target": "TNF",
+    "expression_breadth": 0.10876730388925511,
+    "di_corrected": 1.1467240163098817,
+    "di_raw": 0.9459152184426785
+  },
+  {
+    "drug": "letrozole",
+    "target": "CYP19A1",
+    "expression_breadth": 0.025708635464733027,
+    "di_corrected": 1.1299360636758664,
+    "di_raw": 0.9428387619554996
+  },
+  {
+    "drug": "levcromakalim",
+    "target": "KCNJ5",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.133544591685417,
+    "di_raw": 0.9773456007242203
+  },
+  {
+    "drug": "levocetirizine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1434331424625754,
+    "di_raw": 0.9899138789623976
+  },
+  {
+    "drug": "levofloxacin",
+    "target": "TOP2A",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.1939788065557724,
+    "di_raw": 0.9745913371443748
+  },
+  {
+    "drug": "levonorgestrel",
+    "target": "PGR",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.1912874903874333,
+    "di_raw": 0.9521713927388191
+  },
+  {
+    "drug": "LFM-A13",
+    "target": "BTK",
+    "expression_breadth": 0.11535926170072512,
+    "di_corrected": 1.1413840661227166,
+    "di_raw": 0.9476455114781857
+  },
+  {
+    "drug": "lonidamine",
+    "target": "GCK",
+    "expression_breadth": 0.025049439683586024,
+    "di_corrected": 1.1314672569443824,
+    "di_raw": 0.9266276955604553
+  },
+  {
+    "drug": "loratadine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.0720229436753228,
+    "di_raw": 0.9138763695955276
+  },
+  {
+    "drug": "losartan",
+    "target": "AGTR1",
+    "expression_breadth": 0.047462096242584045,
+    "di_corrected": 1.1425521740181508,
+    "di_raw": 0.9655294083058834
+  },
+  {
+    "drug": "loteprednol",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1504616561522498,
+    "di_raw": 0.9217705130577087
+  },
+  {
+    "drug": "loxoprofen",
+    "target": "PTGS2",
+    "expression_breadth": 0.2247857613711272,
+    "di_corrected": 1.112646491669113,
+    "di_raw": 0.9571498334407806
+  },
+  {
+    "drug": "lupanine",
+    "target": "INS",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.1246523682886131,
+    "di_raw": 0.9522769637405872
+  },
+  {
+    "drug": "lylamine",
+    "target": "CNR1",
+    "expression_breadth": 0.07185234014502308,
+    "di_corrected": 1.1748841798369745,
+    "di_raw": 0.8210730254650116
+  },
+  {
+    "drug": "maprotiline",
+    "target": "SLC6A2",
+    "expression_breadth": 0.01977587343441002,
+    "di_corrected": 1.0549362697559075,
+    "di_raw": 0.8799658045172691
+  },
+  {
+    "drug": "maraviroc",
+    "target": "CCR5",
+    "expression_breadth": 0.01054713249835201,
+    "di_corrected": 1.1396654370446633,
+    "di_raw": 0.9448968693614006
+  },
+  {
+    "drug": "MD-920",
+    "target": "AADACL2",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.1357197597767814,
+    "di_raw": 0.9794230461120605
+  },
+  {
+    "drug": "MDL-29951",
+    "target": "FBP1",
+    "expression_breadth": 0.2043506921555702,
+    "di_corrected": 1.1362593818070243,
+    "di_raw": 0.9270105585455894
+  },
+  {
+    "drug": "MDL-72832",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.120607927464105,
+    "di_raw": 0.9247402548789978
+  },
+  {
+    "drug": "MDL-73005EF",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.1613383961709407,
+    "di_raw": 0.973846897482872
+  },
+  {
+    "drug": "mebeverine",
+    "target": "CHRM1",
+    "expression_breadth": 0.016479894528675015,
+    "di_corrected": 1.1316734522911909,
+    "di_raw": 0.9534000046551228
+  },
+  {
+    "drug": "meclizine",
+    "target": "NR1I3",
+    "expression_breadth": 0.003955174686882004,
+    "di_corrected": 1.177582386435915,
+    "di_raw": 0.9982337529072538
+  },
+  {
+    "drug": "medroxyprogesterone",
+    "target": "PGR",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.1956357177160646,
+    "di_raw": 0.9575801081955433
+  },
+  {
+    "drug": "medrysone",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1672202254889452,
+    "di_raw": 0.9664998166263103
+  },
+  {
+    "drug": "MEK1-2-inhibitor",
+    "target": "MAP2K2",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1332740914279236,
+    "di_raw": 0.9242022261023521
+  },
+  {
+    "drug": "mepacrine",
+    "target": "PLA2G1B",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.1327852268615164,
+    "di_raw": 0.7999123930931091
+  },
+  {
+    "drug": "mephenytoin",
+    "target": "SCN5A",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1115482042777498,
+    "di_raw": 0.9468786790966988
+  },
+  {
+    "drug": "meptazinol",
+    "target": "BCHE",
+    "expression_breadth": 0.3170731707317073,
+    "di_corrected": 1.1178208894864436,
+    "di_raw": 0.9623749256134033
+  },
+  {
+    "drug": "mepyramine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1274794963137833,
+    "di_raw": 0.960790541023016
+  },
+  {
+    "drug": "mestranol",
+    "target": "ESR1",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1507364528459891,
+    "di_raw": 0.9627796411514282
+  },
+  {
+    "drug": "methapyrilene",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.109233835247895,
+    "di_raw": 0.90797258913517
+  },
+  {
+    "drug": "methimazole",
+    "target": "TPO",
+    "expression_breadth": 0.013183915622940013,
+    "di_corrected": 1.116529987994253,
+    "di_raw": 0.9633016772568226
+  },
+  {
+    "drug": "methocarbamol",
+    "target": "CA1",
+    "expression_breadth": 0.01845748187211602,
+    "di_corrected": 1.1289113712405985,
+    "di_raw": 0.9688583947718143
+  },
+  {
+    "drug": "methotrexate",
+    "target": "DHFR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0968351240803988,
+    "di_raw": 0.8736918866634369
+  },
+  {
+    "drug": "methylene-blue",
+    "target": "ACHE",
+    "expression_breadth": 0.08965062623599208,
+    "di_corrected": 1.0736914104503152,
+    "di_raw": 0.8371155858039856
+  },
+  {
+    "drug": "methyllycaconitine",
+    "target": "CHRNA7",
+    "expression_breadth": 0.08701384311140409,
+    "di_corrected": 1.1228181199281146,
+    "di_raw": 0.9673915319144726
+  },
+  {
+    "drug": "methylprednisolone",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1277026355982107,
+    "di_raw": 0.9242194518446922
+  },
+  {
+    "drug": "metixene",
+    "target": "CHRM5",
+    "expression_breadth": 0.004614370468029005,
+    "di_corrected": 1.1044905546542327,
+    "di_raw": 0.9285171553492546
+  },
+  {
+    "drug": "metolazone",
+    "target": "SLC12A3",
+    "expression_breadth": 0.017139090309822018,
+    "di_corrected": 1.1437015192439,
+    "di_raw": 0.9757749829441309
+  },
+  {
+    "drug": "metyrapone",
+    "target": "CYP11B1",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.1188718275522258,
+    "di_raw": 0.9686318635940552
+  },
+  {
+    "drug": "mevastatin",
+    "target": "HMGCR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.118794907675781,
+    "di_raw": 0.8631129562854767
+  },
+  {
+    "drug": "MG-132",
+    "target": "PSMB1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0711495308990668,
+    "di_raw": 0.6142092347145081
+  },
+  {
+    "drug": "mifobate",
+    "target": "PPARG",
+    "expression_breadth": 0.4858272907053395,
+    "di_corrected": 1.0623771999084979,
+    "di_raw": 0.8931425288319588
+  },
+  {
+    "drug": "mitoxantrone",
+    "target": "TOP2A",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.2431440547122095,
+    "di_raw": 0.6894942224025726
+  },
+  {
+    "drug": "MK-1775",
+    "target": "WEE1",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.0715187476109564,
+    "di_raw": 0.870200127363205
+  },
+  {
+    "drug": "mofezolac",
+    "target": "PTGS1",
+    "expression_breadth": 0.21357943309162822,
+    "di_corrected": 1.1311076362323973,
+    "di_raw": 0.9716663993895054
+  },
+  {
+    "drug": "mometasone",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1127952093186142,
+    "di_raw": 0.922100767493248
+  },
+  {
+    "drug": "monastrol",
+    "target": "KIF11",
+    "expression_breadth": 0.982201713909031,
+    "di_corrected": 1.135152751153597,
+    "di_raw": 0.984336256980896
+  },
+  {
+    "drug": "moracizine",
+    "target": "SCN5A",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1625020453435315,
+    "di_raw": 0.9512387849390507
+  },
+  {
+    "drug": "mosapride",
+    "target": "HTR4",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.1688515869739302,
+    "di_raw": 0.8968910798430443
+  },
+  {
+    "drug": "moxifloxacin",
+    "target": "TOP2A",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.144135644140385,
+    "di_raw": 0.9809398762881756
+  },
+  {
+    "drug": "MRS-1334",
+    "target": "ADORA3",
+    "expression_breadth": 0.005273566249176005,
+    "di_corrected": 1.1462451374935463,
+    "di_raw": 0.9640781879425049
+  },
+  {
+    "drug": "MY-5445",
+    "target": "PDE5A",
+    "expression_breadth": 0.2920237310481213,
+    "di_corrected": 1.1231149749767484,
+    "di_raw": 0.9318910762667656
+  },
+  {
+    "drug": "myricetin",
+    "target": "PIK3CG",
+    "expression_breadth": 0.12986156888595912,
+    "di_corrected": 1.1372532810057563,
+    "di_raw": 0.9501562379300594
+  },
+  {
+    "drug": "naftopidil",
+    "target": "ADRA1A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.1041231282613815,
+    "di_raw": 0.960373267531395
+  },
+  {
+    "drug": "naringin",
+    "target": "SLCO1A2",
+    "expression_breadth": 0.05273566249176005,
+    "di_corrected": 1.1166556565124317,
+    "di_raw": 0.9471666477620602
+  },
+  {
+    "drug": "NAS-181",
+    "target": "HTR1B",
+    "expression_breadth": 0.008569545154911009,
+    "di_corrected": 1.1283169208177104,
+    "di_raw": 0.970236649736762
+  },
+  {
+    "drug": "NBI-27914",
+    "target": "CRHR1",
+    "expression_breadth": 0.013843111404087014,
+    "di_corrected": 1.1485182769183508,
+    "di_raw": 0.9636906608939171
+  },
+  {
+    "drug": "necrostatin-1",
+    "target": "RIPK1",
+    "expression_breadth": 0.97363216875412,
+    "di_corrected": 1.130036540406037,
+    "di_raw": 0.9368480667471886
+  },
+  {
+    "drug": "NFKB-activation-inhibitor-II",
+    "target": "RELA",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1173074613546337,
+    "di_raw": 0.9359562546014786
+  },
+  {
+    "drug": "NGB-2904",
+    "target": "DRD3",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.1471048551834848,
+    "di_raw": 0.9700070712715387
+  },
+  {
+    "drug": "nicardipine",
+    "target": "ADORA3",
+    "expression_breadth": 0.005273566249176005,
+    "di_corrected": 1.1270752895153073,
+    "di_raw": 0.9527971148490906
+  },
+  {
+    "drug": "nicergoline",
+    "target": "ADRA1A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.0899760616841727,
+    "di_raw": 0.9332983419299126
+  },
+  {
+    "drug": "niclosamide",
+    "target": "STAT3",
+    "expression_breadth": 0.996044825313118,
+    "di_corrected": 1.1059413291187614,
+    "di_raw": 0.8276175558567047
+  },
+  {
+    "drug": "nicorandil",
+    "target": "KCNJ11",
+    "expression_breadth": 0.09492419248516809,
+    "di_corrected": 1.125667573579266,
+    "di_raw": 0.8905632346868515
+  },
+  {
+    "drug": "nilutamide",
+    "target": "AR",
+    "expression_breadth": 0.1008569545154911,
+    "di_corrected": 1.1253521949175316,
+    "di_raw": 0.9803888071328402
+  },
+  {
+    "drug": "nitrocaramiphen",
+    "target": "CHRM1",
+    "expression_breadth": 0.016479894528675015,
+    "di_corrected": 1.1370781861409296,
+    "di_raw": 0.9583558775484562
+  },
+  {
+    "drug": "nizatidine",
+    "target": "HRH2",
+    "expression_breadth": 0.07580751483190508,
+    "di_corrected": 1.220845529118894,
+    "di_raw": 0.9647147729992867
+  },
+  {
+    "drug": "NNC-05-2090",
+    "target": "SLC6A12",
+    "expression_breadth": 0.03098220171390903,
+    "di_corrected": 1.034936129374489,
+    "di_raw": 0.8373892456293106
+  },
+  {
+    "drug": "NNC-63-0532",
+    "target": "OPRL1",
+    "expression_breadth": 0.06394199077125906,
+    "di_corrected": 1.1464966973159418,
+    "di_raw": 0.9752010330557823
+  },
+  {
+    "drug": "nobiletin",
+    "target": "MAP2K1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1754809971135283,
+    "di_raw": 0.9698620606213808
+  },
+  {
+    "drug": "nocodazole",
+    "target": "HPGDS",
+    "expression_breadth": 0.02109426499670402,
+    "di_corrected": 1.1182431064812537,
+    "di_raw": 0.8870673552155495
+  },
+  {
+    "drug": "nomegestrol-acetate",
+    "target": "PGR",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.0844744438505232,
+    "di_raw": 0.9339359477162361
+  },
+  {
+    "drug": "norethindrone",
+    "target": "PGR",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.1130709424155214,
+    "di_raw": 0.9326520934700966
+  },
+  {
+    "drug": "noretynodrel",
+    "target": "PGR",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.14738488757635,
+    "di_raw": 0.9619958214461803
+  },
+  {
+    "drug": "noscapine",
+    "target": "SIGMAR1",
+    "expression_breadth": 0.996704021094265,
+    "di_corrected": 1.1523412621301807,
+    "di_raw": 0.9761817511171103
+  },
+  {
+    "drug": "NPC-15199",
+    "target": "PPARG",
+    "expression_breadth": 0.4858272907053395,
+    "di_corrected": 1.0694201758068917,
+    "di_raw": 0.9066350907087326
+  },
+  {
+    "drug": "NSC-3852",
+    "target": "HDAC1",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.1087112274964657,
+    "di_raw": 0.673667699098587
+  },
+  {
+    "drug": "NTNCB",
+    "target": "NPY5R",
+    "expression_breadth": 0.014502307185234015,
+    "di_corrected": 1.0498235690715836,
+    "di_raw": 0.827729731798172
+  },
+  {
+    "drug": "nTZDpa",
+    "target": "PPARG",
+    "expression_breadth": 0.4858272907053395,
+    "di_corrected": 1.1573892817236633,
+    "di_raw": 0.9721468221396208
+  },
+  {
+    "drug": "NU-1025",
+    "target": "PARP1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1183769597659934,
+    "di_raw": 0.9368894472718239
+  },
+  {
+    "drug": "NU-7026",
+    "target": "PRKDC",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.072979227121937,
+    "di_raw": 0.8967025950551033
+  },
+  {
+    "drug": "NU-7441",
+    "target": "PRKDC",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0994550627220208,
+    "di_raw": 0.911781556904316
+  },
+  {
+    "drug": "obatoclax",
+    "target": "BCL2",
+    "expression_breadth": 0.27356624917600525,
+    "di_corrected": 1.0627613691372204,
+    "di_raw": 0.7902081608772278
+  },
+  {
+    "drug": "olmesartan",
+    "target": "AGTR1",
+    "expression_breadth": 0.047462096242584045,
+    "di_corrected": 1.18492668081387,
+    "di_raw": 0.9540474712848663
+  },
+  {
+    "drug": "olmesartan-medoxomil",
+    "target": "AGTR1",
+    "expression_breadth": 0.047462096242584045,
+    "di_corrected": 1.0898201132439973,
+    "di_raw": 0.9065738394856453
+  },
+  {
+    "drug": "OMDM-2",
+    "target": "GPR119",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.0938472769472545,
+    "di_raw": 0.9224770218133926
+  },
+  {
+    "drug": "orteronel",
+    "target": "CYP17A1",
+    "expression_breadth": 0.005273566249176005,
+    "di_corrected": 1.1195736632487556,
+    "di_raw": 0.9281290844082832
+  },
+  {
+    "drug": "OSI-027",
+    "target": "MTOR",
+    "expression_breadth": 1.0,
+    "di_corrected": 0.992313517079358,
+    "di_raw": 0.800504744052887
+  },
+  {
+    "drug": "ouabain",
+    "target": "ATP1A1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1309780508576865,
+    "di_raw": 0.7123585939407349
+  },
+  {
+    "drug": "oxprenolol",
+    "target": "ADRB1",
+    "expression_breadth": 0.034278180619644036,
+    "di_corrected": 1.1373697430171423,
+    "di_raw": 0.9777279328554869
+  },
+  {
+    "drug": "oxybenzone",
+    "target": "LIPE",
+    "expression_breadth": 0.3671720500988794,
+    "di_corrected": 1.1140630954346942,
+    "di_raw": 0.9467414952814579
+  },
+  {
+    "drug": "oxybuprocaine",
+    "target": "SCN10A",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.158953069794221,
+    "di_raw": 0.9921067235991359
+  },
+  {
+    "drug": "ozagrel",
+    "target": "TBXAS1",
+    "expression_breadth": 0.3111404087013843,
+    "di_corrected": 1.1152710589324832,
+    "di_raw": 0.9542275071144104
+  },
+  {
+    "drug": "PAC-1",
+    "target": "CASP3",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.062877642039414,
+    "di_raw": 0.8223064094781876
+  },
+  {
+    "drug": "palonosetron",
+    "target": "HTR3A",
+    "expression_breadth": 0.026367831245880026,
+    "di_corrected": 1.0802294666753212,
+    "di_raw": 0.9306639805436134
+  },
+  {
+    "drug": "pantoprazole",
+    "target": "ATP4A",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.0970195256240858,
+    "di_raw": 0.9365757033228874
+  },
+  {
+    "drug": "parbendazole",
+    "target": "TUBB",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1420707112822766,
+    "di_raw": 0.943441815674305
+  },
+  {
+    "drug": "parecoxib",
+    "target": "LTF",
+    "expression_breadth": 0.017139090309822018,
+    "di_corrected": 1.1766793010252043,
+    "di_raw": 0.9432498775422573
+  },
+  {
+    "drug": "PCA-4248",
+    "target": "PTAFR",
+    "expression_breadth": 0.1825972313777192,
+    "di_corrected": 1.1008320002830247,
+    "di_raw": 0.9420245103538036
+  },
+  {
+    "drug": "PCO-400",
+    "target": "KCNJ8",
+    "expression_breadth": 0.07317073170731707,
+    "di_corrected": 1.1217389670767677,
+    "di_raw": 0.9574621319770813
+  },
+  {
+    "drug": "PD-0325901",
+    "target": "MAP2K1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0835625876491337,
+    "di_raw": 0.8750449866056442
+  },
+  {
+    "drug": "PD-102807",
+    "target": "CHRM4",
+    "expression_breadth": 0.03164139749505603,
+    "di_corrected": 1.0742779754977576,
+    "di_raw": 0.8796377405524254
+  },
+  {
+    "drug": "PD-123319",
+    "target": "AGTR2",
+    "expression_breadth": 0.005273566249176005,
+    "di_corrected": 1.1454141379076455,
+    "di_raw": 0.9779799710959196
+  },
+  {
+    "drug": "PD-158780",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.0756114200375613,
+    "di_raw": 0.8373631089925766
+  },
+  {
+    "drug": "PD-160170",
+    "target": "NPY1R",
+    "expression_breadth": 0.04812129202373105,
+    "di_corrected": 1.1005792764334705,
+    "di_raw": 0.8828804418444633
+  },
+  {
+    "drug": "PD-168077",
+    "target": "DRD2",
+    "expression_breadth": 0.06460118655240607,
+    "di_corrected": 1.1306560565597266,
+    "di_raw": 0.9684404395520687
+  },
+  {
+    "drug": "PD-407824",
+    "target": "WEE1",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.0565744217750148,
+    "di_raw": 0.7160628437995911
+  },
+  {
+    "drug": "pefloxacin",
+    "target": "TOP2A",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.1133493912458374,
+    "di_raw": 0.9147654548287392
+  },
+  {
+    "drug": "pelitinib",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.1249509234683197,
+    "di_raw": 0.9232151880860329
+  },
+  {
+    "drug": "penfluridol",
+    "target": "CACNA1G",
+    "expression_breadth": 0.03955174686882004,
+    "di_corrected": 1.141436291563624,
+    "di_raw": 0.7464028894901276
+  },
+  {
+    "drug": "pentamidine",
+    "target": "TRDMT1",
+    "expression_breadth": 0.21621621621621623,
+    "di_corrected": 1.0576632458797683,
+    "di_raw": 0.80196413397789
+  },
+  {
+    "drug": "perhexiline",
+    "target": "CPT1A",
+    "expression_breadth": 0.8938694792353329,
+    "di_corrected": 1.0317427632599623,
+    "di_raw": 0.7977463006973267
+  },
+  {
+    "drug": "perindopril",
+    "target": "ACE",
+    "expression_breadth": 0.12261041529334213,
+    "di_corrected": 1.0975487609604022,
+    "di_raw": 0.9300036355853081
+  },
+  {
+    "drug": "PETCM",
+    "target": "CASP3",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1417411139752343,
+    "di_raw": 0.9643263891339302
+  },
+  {
+    "drug": "PF-04217903",
+    "target": "MET",
+    "expression_breadth": 0.7738958470665788,
+    "di_corrected": 1.1141066755004596,
+    "di_raw": 0.9388056173920631
+  },
+  {
+    "drug": "PF-3845",
+    "target": "FAAH",
+    "expression_breadth": 0.3988134475939354,
+    "di_corrected": 1.1370483929358475,
+    "di_raw": 0.9601003080606461
+  },
+  {
+    "drug": "PF-750",
+    "target": "FAAH",
+    "expression_breadth": 0.3988134475939354,
+    "di_corrected": 1.1252909326397735,
+    "di_raw": 0.8838281631469727
+  },
+  {
+    "drug": "PHA-665752",
+    "target": "MET",
+    "expression_breadth": 0.7738958470665788,
+    "di_corrected": 1.1799143879274094,
+    "di_raw": 0.9207307025790215
+  },
+  {
+    "drug": "phenacetin",
+    "target": "PTGS1",
+    "expression_breadth": 0.21357943309162822,
+    "di_corrected": 1.1087992500026365,
+    "di_raw": 0.932688757777214
+  },
+  {
+    "drug": "phenazopyridine",
+    "target": "SCN1A",
+    "expression_breadth": 0.012524719841793012,
+    "di_corrected": 1.12033968416798,
+    "di_raw": 0.9435312561690807
+  },
+  {
+    "drug": "phenethyl-isothiocyanate",
+    "target": "CYP2E1",
+    "expression_breadth": 0.07317073170731707,
+    "di_corrected": 1.1149672884298125,
+    "di_raw": 0.9178223609924316
+  },
+  {
+    "drug": "pheniramine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1859722869994624,
+    "di_raw": 0.9837395939975977
+  },
+  {
+    "drug": "phenolphthalein",
+    "target": "UGT1A9",
+    "expression_breadth": 0.01845748187211602,
+    "di_corrected": 1.092315320288224,
+    "di_raw": 0.8761457279324532
+  },
+  {
+    "drug": "phenylbutyrate",
+    "target": "HDAC1",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.156766151125613,
+    "di_raw": 0.9888733960688114
+  },
+  {
+    "drug": "PHTPP",
+    "target": "ESR2",
+    "expression_breadth": 0.03164139749505603,
+    "di_corrected": 1.1195740430738494,
+    "di_raw": 0.9709618762135506
+  },
+  {
+    "drug": "picotamide",
+    "target": "TBXA2R",
+    "expression_breadth": 0.03889255108767304,
+    "di_corrected": 1.1272114734381011,
+    "di_raw": 0.9729526098817587
+  },
+  {
+    "drug": "pifithrin-alpha",
+    "target": "TP53",
+    "expression_breadth": 0.963744232036915,
+    "di_corrected": 1.1398754541433733,
+    "di_raw": 0.9576204754412174
+  },
+  {
+    "drug": "pinocembrin",
+    "target": "CYP1B1",
+    "expression_breadth": 0.4574818721160185,
+    "di_corrected": 1.1361318431365128,
+    "di_raw": 0.974372036755085
+  },
+  {
+    "drug": "piperidolate",
+    "target": "CHRM1",
+    "expression_breadth": 0.016479894528675015,
+    "di_corrected": 1.16151719782267,
+    "di_raw": 0.9531295038759708
+  },
+  {
+    "drug": "pirarubicin",
+    "target": "TOP2A",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.145388698845197,
+    "di_raw": 0.8108276575803757
+  },
+  {
+    "drug": "pirinixic-acid",
+    "target": "PPARA",
+    "expression_breadth": 0.47198417930125247,
+    "di_corrected": 1.1323217907565146,
+    "di_raw": 0.9804889354854822
+  },
+  {
+    "drug": "pirlindole",
+    "target": "MAOA",
+    "expression_breadth": 0.3216875411997363,
+    "di_corrected": 1.0818827996030336,
+    "di_raw": 0.912775494158268
+  },
+  {
+    "drug": "PIT",
+    "target": "P2RY1",
+    "expression_breadth": 0.0982201713909031,
+    "di_corrected": 1.1451466734177518,
+    "di_raw": 0.9659785963594913
+  },
+  {
+    "drug": "pitavastatin",
+    "target": "HMGCR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.045671222422132,
+    "di_raw": 0.7151881754398346
+  },
+  {
+    "drug": "PK-11195",
+    "target": "TSPO",
+    "expression_breadth": 0.954515491100857,
+    "di_corrected": 1.1613188497105824,
+    "di_raw": 0.954637985676527
+  },
+  {
+    "drug": "PNU-120596",
+    "target": "CHRNA7",
+    "expression_breadth": 0.08701384311140409,
+    "di_corrected": 1.0852546734769049,
+    "di_raw": 0.9179727584123611
+  },
+  {
+    "drug": "PNU-282987",
+    "target": "CHRNA7",
+    "expression_breadth": 0.08701384311140409,
+    "di_corrected": 1.1391816070125689,
+    "di_raw": 0.9809212405234575
+  },
+  {
+    "drug": "polydatin",
+    "target": "ICAM1",
+    "expression_breadth": 0.6295319709953856,
+    "di_corrected": 1.1432892336438858,
+    "di_raw": 0.9808431304991245
+  },
+  {
+    "drug": "potassium-canrenoate",
+    "target": "NR3C2",
+    "expression_breadth": 0.035596572181938034,
+    "di_corrected": 1.1123398785467669,
+    "di_raw": 0.9215652793645859
+  },
+  {
+    "drug": "PPT",
+    "target": "ESR1",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.138851867007672,
+    "di_raw": 0.9497146010398865
+  },
+  {
+    "drug": "PQ-401",
+    "target": "IGF1R",
+    "expression_breadth": 0.7580751483190508,
+    "di_corrected": 1.0828195646667702,
+    "di_raw": 0.8818912729620934
+  },
+  {
+    "drug": "practolol",
+    "target": "ADRB1",
+    "expression_breadth": 0.034278180619644036,
+    "di_corrected": 1.1058033853829472,
+    "di_raw": 0.9485932849347591
+  },
+  {
+    "drug": "PRE-084",
+    "target": "SIGMAR1",
+    "expression_breadth": 0.996704021094265,
+    "di_corrected": 1.155960613533945,
+    "di_raw": 0.9620177745819092
+  },
+  {
+    "drug": "prednicarbate",
+    "target": "PLA2G1B",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.148440637518561,
+    "di_raw": 0.937043309211731
+  },
+  {
+    "drug": "prednisolone-acetate",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1596544844138919,
+    "di_raw": 0.9172606840729713
+  },
+  {
+    "drug": "prednisolone-hemisuccinate",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1269167341266684,
+    "di_raw": 0.9545039385557175
+  },
+  {
+    "drug": "pregnenolone",
+    "target": "SULT2B1",
+    "expression_breadth": 0.1885299934080422,
+    "di_corrected": 1.142427208011408,
+    "di_raw": 0.9499040134251118
+  },
+  {
+    "drug": "pregnenolone-succinate",
+    "target": "CYP17A1",
+    "expression_breadth": 0.005273566249176005,
+    "di_corrected": 1.1021037050324627,
+    "di_raw": 0.9080378636717796
+  },
+  {
+    "drug": "prilocaine",
+    "target": "SCN5A",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1107493147378988,
+    "di_raw": 0.9370255842804909
+  },
+  {
+    "drug": "PRIMA1",
+    "target": "ACHE",
+    "expression_breadth": 0.08965062623599208,
+    "di_corrected": 1.1377293365725625,
+    "di_raw": 0.922992005944252
+  },
+  {
+    "drug": "proadifen",
+    "target": "NOS1",
+    "expression_breadth": 0.026367831245880026,
+    "di_corrected": 1.171920604304646,
+    "di_raw": 0.9846576238051057
+  },
+  {
+    "drug": "procaterol",
+    "target": "ADRB2",
+    "expression_breadth": 0.3005932762030323,
+    "di_corrected": 1.1495620470761505,
+    "di_raw": 0.9491772465407848
+  },
+  {
+    "drug": "profenamine",
+    "target": "CHRM1",
+    "expression_breadth": 0.016479894528675015,
+    "di_corrected": 1.052633866638962,
+    "di_raw": 0.8554518967866898
+  },
+  {
+    "drug": "proguanil",
+    "target": "DHFR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1408659933624676,
+    "di_raw": 0.97276970744133
+  },
+  {
+    "drug": "promethazine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1061671521874459,
+    "di_raw": 0.9263000935316086
+  },
+  {
+    "drug": "propentofylline",
+    "target": "PDE1A",
+    "expression_breadth": 0.05273566249176005,
+    "di_corrected": 1.129238994886276,
+    "di_raw": 0.9471766389906406
+  },
+  {
+    "drug": "proxyfan",
+    "target": "HRH3",
+    "expression_breadth": 0.027686222808174028,
+    "di_corrected": 1.1274664865575759,
+    "di_raw": 0.9631394743919373
+  },
+  {
+    "drug": "PSB-06126",
+    "target": "ENTPD3",
+    "expression_breadth": 0.07251153592617007,
+    "di_corrected": 1.0516658794288745,
+    "di_raw": 0.8543912023305893
+  },
+  {
+    "drug": "pterostilbene",
+    "target": "PTGS2",
+    "expression_breadth": 0.2247857613711272,
+    "di_corrected": 1.1546722674958327,
+    "di_raw": 0.9252141192555428
+  },
+  {
+    "drug": "PU-H71",
+    "target": "HSP90AA1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0476739681319853,
+    "di_raw": 0.8112354725599289
+  },
+  {
+    "drug": "purmorphamine",
+    "target": "SMO",
+    "expression_breadth": 0.5326301911667766,
+    "di_corrected": 1.111349135708304,
+    "di_raw": 0.930020734667778
+  },
+  {
+    "drug": "pyrazinamide",
+    "target": "FASN",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.0997772020950354,
+    "di_raw": 0.9372726902365685
+  },
+  {
+    "drug": "pyroxamide",
+    "target": "HDAC1",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 0.9572849822315878,
+    "di_raw": 0.7286266982555389
+  },
+  {
+    "drug": "pyrvinium-pamoate",
+    "target": "AR",
+    "expression_breadth": 0.1008569545154911,
+    "di_corrected": 1.0076255003284758,
+    "di_raw": 0.7024327516555786
+  },
+  {
+    "drug": "quinapril",
+    "target": "ACE",
+    "expression_breadth": 0.12261041529334213,
+    "di_corrected": 1.247991444846468,
+    "di_raw": 0.954162485897541
+  },
+  {
+    "drug": "R-59022",
+    "target": "DGKA",
+    "expression_breadth": 0.8892551087673038,
+    "di_corrected": 1.0746498223409335,
+    "di_raw": 0.8667166233062744
+  },
+  {
+    "drug": "R-96544",
+    "target": "HTR2A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.0993733014229685,
+    "di_raw": 0.915179893374443
+  },
+  {
+    "drug": "rabeprazole",
+    "target": "ATP4A",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.1748113571087213,
+    "di_raw": 0.9589807242155075
+  },
+  {
+    "drug": "racecadotril",
+    "target": "MME",
+    "expression_breadth": 0.4218852999340804,
+    "di_corrected": 1.1492080121804078,
+    "di_raw": 0.9682056158781052
+  },
+  {
+    "drug": "ramipril",
+    "target": "ACE",
+    "expression_breadth": 0.12261041529334213,
+    "di_corrected": 1.1866527623593903,
+    "di_raw": 0.9635603092610836
+  },
+  {
+    "drug": "ranitidine",
+    "target": "HRH2",
+    "expression_breadth": 0.07580751483190508,
+    "di_corrected": 1.1340785877076185,
+    "di_raw": 0.9687231481075287
+  },
+  {
+    "drug": "reboxetine",
+    "target": "SLC6A2",
+    "expression_breadth": 0.01977587343441002,
+    "di_corrected": 1.1229045410045764,
+    "di_raw": 0.9515783004462719
+  },
+  {
+    "drug": "remacemide",
+    "target": "GRIN1",
+    "expression_breadth": 0.0903098220171391,
+    "di_corrected": 1.1634388785503318,
+    "di_raw": 0.9449076354503632
+  },
+  {
+    "drug": "REV-5901",
+    "target": "ALOX5",
+    "expression_breadth": 0.22148978246539222,
+    "di_corrected": 1.1537677144712697,
+    "di_raw": 0.963870707899332
+  },
+  {
+    "drug": "rilmenidine",
+    "target": "ADRA2A",
+    "expression_breadth": 0.04284772577455504,
+    "di_corrected": 1.139271810118011,
+    "di_raw": 0.9449263401329517
+  },
+  {
+    "drug": "rimcazole",
+    "target": "SIGMAR1",
+    "expression_breadth": 0.996704021094265,
+    "di_corrected": 1.0744153519041195,
+    "di_raw": 0.8885429576039314
+  },
+  {
+    "drug": "RITA",
+    "target": "MDM2",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 1.1189516652425873,
+    "di_raw": 0.9279361441731453
+  },
+  {
+    "drug": "rivaroxaban",
+    "target": "F10",
+    "expression_breadth": 0.05075807514831905,
+    "di_corrected": 1.0559793143748062,
+    "di_raw": 0.8939903825521469
+  },
+  {
+    "drug": "Ro-04-5595",
+    "target": "GRIN2B",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.0884513196073036,
+    "di_raw": 0.920841634273529
+  },
+  {
+    "drug": "Ro-10-5824",
+    "target": "DRD4",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.1455874568555902,
+    "di_raw": 0.976396294310689
+  },
+  {
+    "drug": "Ro-25-6981",
+    "target": "GRIN2B",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.065288213421134,
+    "di_raw": 0.8746155202388763
+  },
+  {
+    "drug": "Ro-28-1675",
+    "target": "GCK",
+    "expression_breadth": 0.025049439683586024,
+    "di_corrected": 1.0608344453235035,
+    "di_raw": 0.7681189179420471
+  },
+  {
+    "drug": "Ro-3306",
+    "target": "CDK1",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 0.9697671629745309,
+    "di_raw": 0.7251216471195221
+  },
+  {
+    "drug": "Ro-90-7501",
+    "target": "APP",
+    "expression_breadth": 0.938694792353329,
+    "di_corrected": 1.034932855906514,
+    "di_raw": 0.8035854995250702
+  },
+  {
+    "drug": "ropivacaine",
+    "target": "SCN10A",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.186567714007587,
+    "di_raw": 0.9565369039773941
+  },
+  {
+    "drug": "rosuvastatin",
+    "target": "HMGCR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1254025296487749,
+    "di_raw": 0.9274114742875099
+  },
+  {
+    "drug": "roxatidine-acetate",
+    "target": "HRH2",
+    "expression_breadth": 0.07580751483190508,
+    "di_corrected": 1.1578775449407217,
+    "di_raw": 0.9578665196895599
+  },
+  {
+    "drug": "RS-102895",
+    "target": "CCR2",
+    "expression_breadth": 0.02241265655899802,
+    "di_corrected": 1.098530471206306,
+    "di_raw": 0.9248813316226006
+  },
+  {
+    "drug": "RS-23597-190",
+    "target": "HTR4",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.0954134451023783,
+    "di_raw": 0.9200580716133118
+  },
+  {
+    "drug": "RS-39604",
+    "target": "HTR4",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.1579336661459025,
+    "di_raw": 0.9203963130712509
+  },
+  {
+    "drug": "RS-56812",
+    "target": "HTR3A",
+    "expression_breadth": 0.026367831245880026,
+    "di_corrected": 1.130702514185062,
+    "di_raw": 0.9313418790698051
+  },
+  {
+    "drug": "RS-67333",
+    "target": "HTR4",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.0856280685064574,
+    "di_raw": 0.9294710904359818
+  },
+  {
+    "drug": "RS-67506",
+    "target": "HTR4",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.098718628888009,
+    "di_raw": 0.9437274523079395
+  },
+  {
+    "drug": "RS-79948",
+    "target": "ADRA2A",
+    "expression_breadth": 0.04284772577455504,
+    "di_corrected": 1.1319369474827572,
+    "di_raw": 0.9454208090901375
+  },
+  {
+    "drug": "RU-28318",
+    "target": "NR3C2",
+    "expression_breadth": 0.035596572181938034,
+    "di_corrected": 1.1328375646780735,
+    "di_raw": 0.9470745995640755
+  },
+  {
+    "drug": "rutin",
+    "target": "AKR1C3",
+    "expression_breadth": 0.5781147000659196,
+    "di_corrected": 1.170824321639648,
+    "di_raw": 0.976252481341362
+  },
+  {
+    "drug": "RWJ-21757",
+    "target": "TLR7",
+    "expression_breadth": 0.03691496374423204,
+    "di_corrected": 1.1336770340803097,
+    "di_raw": 0.9747113548219204
+  },
+  {
+    "drug": "S-14506",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.1125507900432474,
+    "di_raw": 0.963438156992197
+  },
+  {
+    "drug": "safinamide",
+    "target": "MAOB",
+    "expression_breadth": 0.11865524060646011,
+    "di_corrected": 1.094547477923126,
+    "di_raw": 0.9312794357538223
+  },
+  {
+    "drug": "salmeterol",
+    "target": "ADRB2",
+    "expression_breadth": 0.3005932762030323,
+    "di_corrected": 1.1071186564016335,
+    "di_raw": 0.9043268635869026
+  },
+  {
+    "drug": "salubrinal",
+    "target": "EIF2S1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0323145313794215,
+    "di_raw": 0.8253481686115265
+  },
+  {
+    "drug": "saquinavir",
+    "target": "CYP3A4",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.1644511241446116,
+    "di_raw": 0.9577235691249371
+  },
+  {
+    "drug": "SB-203186",
+    "target": "HTR4",
+    "expression_breadth": 0.0026367831245880024,
+    "di_corrected": 1.0990108763071085,
+    "di_raw": 0.9003593549132347
+  },
+  {
+    "drug": "SB-218078",
+    "target": "CHEK1",
+    "expression_breadth": 0.990112063282795,
+    "di_corrected": 1.1034861495627186,
+    "di_raw": 0.8419322669506073
+  },
+  {
+    "drug": "SB-218795",
+    "target": "TACR3",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.0832668683387547,
+    "di_raw": 0.9085968807339668
+  },
+  {
+    "drug": "SB-222200",
+    "target": "TACR3",
+    "expression_breadth": 0.0006591957811470006,
+    "di_corrected": 1.1060135671805162,
+    "di_raw": 0.9056607261300087
+  },
+  {
+    "drug": "SB-225002",
+    "target": "CXCR2",
+    "expression_breadth": 0.01911667765326302,
+    "di_corrected": 1.120900231212068,
+    "di_raw": 0.9296882301568985
+  },
+  {
+    "drug": "SB-258585",
+    "target": "HTR6",
+    "expression_breadth": 0.008569545154911009,
+    "di_corrected": 1.1041225768381981,
+    "di_raw": 0.8997550532221794
+  },
+  {
+    "drug": "SB-269970",
+    "target": "HTR7",
+    "expression_breadth": 0.12326961107448912,
+    "di_corrected": 1.1208063755894282,
+    "di_raw": 0.9608498960733414
+  },
+  {
+    "drug": "SB-366791",
+    "target": "TRPV1",
+    "expression_breadth": 0.14831905075807514,
+    "di_corrected": 1.157232702246394,
+    "di_raw": 0.9294409453868866
+  },
+  {
+    "drug": "SB-525334",
+    "target": "TGFBR1",
+    "expression_breadth": 0.912986156888596,
+    "di_corrected": 1.0916092713043484,
+    "di_raw": 0.9195186570286751
+  },
+  {
+    "drug": "SB-590885",
+    "target": "BRAF",
+    "expression_breadth": 0.9294660514172709,
+    "di_corrected": 1.1819016748791151,
+    "di_raw": 0.9748482275754213
+  },
+  {
+    "drug": "SC-10",
+    "target": "PRKCA",
+    "expression_breadth": 0.6677653263019117,
+    "di_corrected": 1.1320366795879537,
+    "di_raw": 0.9816695861518383
+  },
+  {
+    "drug": "SC-19220",
+    "target": "PTGER1",
+    "expression_breadth": 0.003955174686882004,
+    "di_corrected": 1.0983713762570637,
+    "di_raw": 0.9243281409144402
+  },
+  {
+    "drug": "SC-560",
+    "target": "PTGS1",
+    "expression_breadth": 0.21357943309162822,
+    "di_corrected": 1.1438048050218823,
+    "di_raw": 0.9779057055711746
+  },
+  {
+    "drug": "SC-9",
+    "target": "PRKCA",
+    "expression_breadth": 0.6677653263019117,
+    "di_corrected": 1.1038983192656886,
+    "di_raw": 0.9531900510191917
+  },
+  {
+    "drug": "SCH-28080",
+    "target": "ATP4A",
+    "expression_breadth": 0.0013183915622940012,
+    "di_corrected": 1.1368263067640116,
+    "di_raw": 0.958189744502306
+  },
+  {
+    "drug": "SD-169",
+    "target": "MAPK14",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.1401429762383821,
+    "di_raw": 0.9332381933927536
+  },
+  {
+    "drug": "SDZ-NKT-343",
+    "target": "TACR1",
+    "expression_breadth": 0.013183915622940013,
+    "di_corrected": 1.1148422435211094,
+    "di_raw": 0.9487801529467106
+  },
+  {
+    "drug": "SDZ-WAG-994",
+    "target": "ADORA1",
+    "expression_breadth": 0.23994726433750824,
+    "di_corrected": 1.1445081722216803,
+    "di_raw": 0.9684580229222775
+  },
+  {
+    "drug": "securinine",
+    "target": "GABRA1",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.1256936518223086,
+    "di_raw": 0.9354790970683098
+  },
+  {
+    "drug": "selumetinib",
+    "target": "MAP2K1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0912718332451028,
+    "di_raw": 0.8276757597923279
+  },
+  {
+    "drug": "serdemetan",
+    "target": "MDM2",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 1.081198979261186,
+    "di_raw": 0.9032370522618294
+  },
+  {
+    "drug": "SEW-2871",
+    "target": "S1PR1",
+    "expression_breadth": 0.2010547132498352,
+    "di_corrected": 1.1380407516863285,
+    "di_raw": 0.9813232906162739
+  },
+  {
+    "drug": "SGX523",
+    "target": "MET",
+    "expression_breadth": 0.7738958470665788,
+    "di_corrected": 1.1065948709058997,
+    "di_raw": 0.9408310763537884
+  },
+  {
+    "drug": "SIB-1757",
+    "target": "GRM5",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.1323823562820712,
+    "di_raw": 0.9576603248715401
+  },
+  {
+    "drug": "siguazodan",
+    "target": "PDE3A",
+    "expression_breadth": 0.07910349373764008,
+    "di_corrected": 1.1550425221462144,
+    "di_raw": 0.9771829284727573
+  },
+  {
+    "drug": "sitagliptin",
+    "target": "DPP4",
+    "expression_breadth": 0.32630191166776534,
+    "di_corrected": 1.1212679722012049,
+    "di_raw": 0.9412777312099934
+  },
+  {
+    "drug": "SJ-172550",
+    "target": "MDM4",
+    "expression_breadth": 0.8319050758075148,
+    "di_corrected": 1.0801621175836542,
+    "di_raw": 0.9081268757581711
+  },
+  {
+    "drug": "SKF-77434",
+    "target": "DRD1",
+    "expression_breadth": 0.01120632827949901,
+    "di_corrected": 1.1411841464880115,
+    "di_raw": 0.9635313898324966
+  },
+  {
+    "drug": "SKF-89976A",
+    "target": "SLC6A1",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.1510527941201243,
+    "di_raw": 0.9687659796327353
+  },
+  {
+    "drug": "SKI-II",
+    "target": "SPHK1",
+    "expression_breadth": 0.6268951878707977,
+    "di_corrected": 1.090749126717391,
+    "di_raw": 0.858798161149025
+  },
+  {
+    "drug": "SN-38",
+    "target": "TOP1",
+    "expression_breadth": 1.0,
+    "di_corrected": 0.9659758026521199,
+    "di_raw": 0.6557833850383759
+  },
+  {
+    "drug": "sonidegib",
+    "target": "SMO",
+    "expression_breadth": 0.5326301911667766,
+    "di_corrected": 1.1223499431561796,
+    "di_raw": 0.9008956104516983
+  },
+  {
+    "drug": "splitomycin",
+    "target": "SIRT1",
+    "expression_breadth": 0.979564930784443,
+    "di_corrected": 1.1257540352133315,
+    "di_raw": 0.9487391300499439
+  },
+  {
+    "drug": "SQ-22536",
+    "target": "ADCY1",
+    "expression_breadth": 0.1990771259063942,
+    "di_corrected": 1.147121374133686,
+    "di_raw": 0.9553459100425243
+  },
+  {
+    "drug": "SR-27897",
+    "target": "CCKAR",
+    "expression_breadth": 0.013843111404087014,
+    "di_corrected": 1.0660528175315287,
+    "di_raw": 0.9152340292930603
+  },
+  {
+    "drug": "SR-57227A",
+    "target": "HTR3A",
+    "expression_breadth": 0.026367831245880026,
+    "di_corrected": 1.1778086365933236,
+    "di_raw": 0.9557094015181065
+  },
+  {
+    "drug": "SR-95639A",
+    "target": "CHRM1",
+    "expression_breadth": 0.016479894528675015,
+    "di_corrected": 1.1709476766276006,
+    "di_raw": 0.9736955128610134
+  },
+  {
+    "drug": "STAT3-inhibitor-VI",
+    "target": "STAT3",
+    "expression_breadth": 0.996044825313118,
+    "di_corrected": 1.1429505280374446,
+    "di_raw": 0.9408352822065353
+  },
+  {
+    "drug": "stiripentol",
+    "target": "GABRA3",
+    "expression_breadth": 0.13315754779169414,
+    "di_corrected": 1.1037781680928367,
+    "di_raw": 0.9467705301940441
+  },
+  {
+    "drug": "sulforaphane",
+    "target": "NFE2L2",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0757362883246182,
+    "di_raw": 0.8706328868865967
+  },
+  {
+    "drug": "sulindac",
+    "target": "AKR1B1",
+    "expression_breadth": 0.9070533948582729,
+    "di_corrected": 1.1142345756298686,
+    "di_raw": 0.9632680900394917
+  },
+  {
+    "drug": "synephrine",
+    "target": "ADRA1A",
+    "expression_breadth": 0.00922874093605801,
+    "di_corrected": 1.13335301084815,
+    "di_raw": 0.9352757930755615
+  },
+  {
+    "drug": "T-0070907",
+    "target": "PPARG",
+    "expression_breadth": 0.4858272907053395,
+    "di_corrected": 1.123944190797312,
+    "di_raw": 0.9435943774878979
+  },
+  {
+    "drug": "T-0156",
+    "target": "PDE5A",
+    "expression_breadth": 0.2920237310481213,
+    "di_corrected": 1.1340095754245527,
+    "di_raw": 0.9744401182979345
+  },
+  {
+    "drug": "tacedinaline",
+    "target": "HDAC1",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.1148286417168314,
+    "di_raw": 0.8972196355462074
+  },
+  {
+    "drug": "tacrolimus",
+    "target": "FKBP1A",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1610856402699776,
+    "di_raw": 0.9376486949622631
+  },
+  {
+    "drug": "TAK-715",
+    "target": "MAPK14",
+    "expression_breadth": 0.999340804218853,
+    "di_corrected": 1.126750232551691,
+    "di_raw": 0.9639983214437962
+  },
+  {
+    "drug": "talniflumate",
+    "target": "CLCA1",
+    "expression_breadth": 0.008569545154911009,
+    "di_corrected": 1.1205382410517835,
+    "di_raw": 0.9490625038743019
+  },
+  {
+    "drug": "tanespimycin",
+    "target": "HSP90AA1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0597299904984767,
+    "di_raw": 0.8457974046468735
+  },
+  {
+    "drug": "targinine",
+    "target": "NOS3",
+    "expression_breadth": 0.23665128543177325,
+    "di_corrected": 1.220495847267602,
+    "di_raw": 0.9568183794617653
+  },
+  {
+    "drug": "taxifolin",
+    "target": "ADIPOR2",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1492237892776114,
+    "di_raw": 0.9194094985723495
+  },
+  {
+    "drug": "TCS-359",
+    "target": "FLT3",
+    "expression_breadth": 0.035596572181938034,
+    "di_corrected": 1.0755103793177132,
+    "di_raw": 0.8989777565002441
+  },
+  {
+    "drug": "telenzepine",
+    "target": "CHRM1",
+    "expression_breadth": 0.016479894528675015,
+    "di_corrected": 1.1399706830926697,
+    "di_raw": 0.9677989780902863
+  },
+  {
+    "drug": "temozolomide",
+    "target": "MGMT",
+    "expression_breadth": 0.7495056031641397,
+    "di_corrected": 1.1242631513727845,
+    "di_raw": 0.9339468255639076
+  },
+  {
+    "drug": "temsirolimus",
+    "target": "MTOR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0102123756972514,
+    "di_raw": 0.8015017807483673
+  },
+  {
+    "drug": "tenovin-1",
+    "target": "SIRT1",
+    "expression_breadth": 0.979564930784443,
+    "di_corrected": 1.1199904518366701,
+    "di_raw": 0.955332025885582
+  },
+  {
+    "drug": "terbinafine",
+    "target": "SQLE",
+    "expression_breadth": 0.992089650626236,
+    "di_corrected": 1.1792900638911141,
+    "di_raw": 0.9245544821023941
+  },
+  {
+    "drug": "terbutaline",
+    "target": "ADRB2",
+    "expression_breadth": 0.3005932762030323,
+    "di_corrected": 1.0610799297750924,
+    "di_raw": 0.9206667989492416
+  },
+  {
+    "drug": "terreic-acid-(-)",
+    "target": "BTK",
+    "expression_breadth": 0.11535926170072512,
+    "di_corrected": 1.1154072511840756,
+    "di_raw": 0.9266664087772369
+  },
+  {
+    "drug": "tetrindole",
+    "target": "MAOA",
+    "expression_breadth": 0.3216875411997363,
+    "di_corrected": 1.0635827252831087,
+    "di_raw": 0.7752704322338104
+  },
+  {
+    "drug": "thalidomide",
+    "target": "TNF",
+    "expression_breadth": 0.10876730388925511,
+    "di_corrected": 1.1211563831939955,
+    "di_raw": 0.9495311044156551
+  },
+  {
+    "drug": "thiorphan",
+    "target": "MME",
+    "expression_breadth": 0.4218852999340804,
+    "di_corrected": 1.1299659158003306,
+    "di_raw": 0.950098879635334
+  },
+  {
+    "drug": "thiostrepton",
+    "target": "FOXM1",
+    "expression_breadth": 0.996044825313118,
+    "di_corrected": 1.0550792005900205,
+    "di_raw": 0.7139534652233124
+  },
+  {
+    "drug": "tiagabine",
+    "target": "SLC6A1",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.155041620877193,
+    "di_raw": 0.9171823114156723
+  },
+  {
+    "drug": "tiaprofenic-acid",
+    "target": "PTGS2",
+    "expression_breadth": 0.2247857613711272,
+    "di_corrected": 1.1311195901810223,
+    "di_raw": 0.9467277117073536
+  },
+  {
+    "drug": "tibolone",
+    "target": "ESR1",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1314208517435436,
+    "di_raw": 0.9250939935445786
+  },
+  {
+    "drug": "ticlopidine",
+    "target": "P2RY12",
+    "expression_breadth": 0.0032959789057350032,
+    "di_corrected": 1.11459036892037,
+    "di_raw": 0.9321404621005058
+  },
+  {
+    "drug": "tiotidine",
+    "target": "HRH2",
+    "expression_breadth": 0.07580751483190508,
+    "di_corrected": 1.1676942701498816,
+    "di_raw": 0.9735017828643322
+  },
+  {
+    "drug": "tivantinib",
+    "target": "MET",
+    "expression_breadth": 0.7738958470665788,
+    "di_corrected": 1.0719528508946232,
+    "di_raw": 0.8822673931717873
+  },
+  {
+    "drug": "tocainide",
+    "target": "SCN5A",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.095334540629553,
+    "di_raw": 0.9098067060112953
+  },
+  {
+    "drug": "tolcapone",
+    "target": "COMT",
+    "expression_breadth": 0.998681608437706,
+    "di_corrected": 1.1292075608902743,
+    "di_raw": 0.9555141143500805
+  },
+  {
+    "drug": "tomelukast",
+    "target": "CYSLTR1",
+    "expression_breadth": 0.06855636123928807,
+    "di_corrected": 1.1520581655743625,
+    "di_raw": 0.9757680390030146
+  },
+  {
+    "drug": "torasemide",
+    "target": "SLC12A1",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.1396622385524044,
+    "di_raw": 0.9790448881685734
+  },
+  {
+    "drug": "toremifene",
+    "target": "ESR1",
+    "expression_breadth": 0.03361898483849703,
+    "di_corrected": 1.1423386953080399,
+    "di_raw": 0.9121746495366096
+  },
+  {
+    "drug": "torin-1",
+    "target": "MTOR",
+    "expression_breadth": 1.0,
+    "di_corrected": 0.9708419276243636,
+    "di_raw": 0.7181546092033386
+  },
+  {
+    "drug": "torin-2",
+    "target": "MTOR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0027283501294262,
+    "di_raw": 0.6962096989154816
+  },
+  {
+    "drug": "TPCA-1",
+    "target": "IKBKB",
+    "expression_breadth": 0.994726433750824,
+    "di_corrected": 1.0901442333557614,
+    "di_raw": 0.8464168161153793
+  },
+  {
+    "drug": "tracazolate",
+    "target": "GABRA1",
+    "expression_breadth": 0.007251153592617007,
+    "di_corrected": 1.1324818736696691,
+    "di_raw": 0.9617985337972641
+  },
+  {
+    "drug": "trap-101",
+    "target": "OPRL1",
+    "expression_breadth": 0.06394199077125906,
+    "di_corrected": 1.1562338070657505,
+    "di_raw": 0.9716390836983919
+  },
+  {
+    "drug": "trapidil",
+    "target": "PDGFRA",
+    "expression_breadth": 0.16413974950560317,
+    "di_corrected": 1.164783369710829,
+    "di_raw": 0.9655913934111595
+  },
+  {
+    "drug": "trequinsin",
+    "target": "PDE5A",
+    "expression_breadth": 0.2920237310481213,
+    "di_corrected": 1.1384328136805804,
+    "di_raw": 0.9544984214007854
+  },
+  {
+    "drug": "triamcinolone",
+    "target": "NR3C1",
+    "expression_breadth": 0.8417930125247198,
+    "di_corrected": 1.1387265400597593,
+    "di_raw": 0.9546942226588726
+  },
+  {
+    "drug": "triclabendazole",
+    "target": "DNMT1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0962536836372367,
+    "di_raw": 0.9372254461050034
+  },
+  {
+    "drug": "triclosan",
+    "target": "DNMT1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.104053568949358,
+    "di_raw": 0.8773405402898788
+  },
+  {
+    "drug": "trifluridine",
+    "target": "TYMS",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 1.1061203607448902,
+    "di_raw": 0.8777050003409386
+  },
+  {
+    "drug": "trimethobenzamide",
+    "target": "DRD2",
+    "expression_breadth": 0.06460118655240607,
+    "di_corrected": 1.1238093964277265,
+    "di_raw": 0.9506356120109558
+  },
+  {
+    "drug": "tripelennamine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1623204373298415,
+    "di_raw": 0.9888321859762073
+  },
+  {
+    "drug": "triprolidine",
+    "target": "HRH1",
+    "expression_breadth": 0.37376400791034936,
+    "di_corrected": 1.1118018188687122,
+    "di_raw": 0.9393644295632839
+  },
+  {
+    "drug": "triptolide",
+    "target": "RELA",
+    "expression_breadth": 1.0,
+    "di_corrected": 0.9578198209887118,
+    "di_raw": 0.6441908478736877
+  },
+  {
+    "drug": "tyrphostin-AG-1296",
+    "target": "FLT3",
+    "expression_breadth": 0.035596572181938034,
+    "di_corrected": 1.131180241737009,
+    "di_raw": 0.9741336721926928
+  },
+  {
+    "drug": "tyrphostin-AG-18",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.164078425744597,
+    "di_raw": 0.951655425131321
+  },
+  {
+    "drug": "tyrphostin-AG-494",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.1364793259316321,
+    "di_raw": 0.9302923157811165
+  },
+  {
+    "drug": "tyrphostin-AG-825",
+    "target": "ERBB2",
+    "expression_breadth": 0.8767303889255109,
+    "di_corrected": 1.1659875853530686,
+    "di_raw": 0.9398474209010601
+  },
+  {
+    "drug": "tyrphostin-AG-835",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.1112466239405376,
+    "di_raw": 0.93234733492136
+  },
+  {
+    "drug": "tyrphostin-AG-99",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.1659426335658059,
+    "di_raw": 0.9763037543743849
+  },
+  {
+    "drug": "U-54494A",
+    "target": "OPRK1",
+    "expression_breadth": 0.011865524060646011,
+    "di_corrected": 1.148341126871832,
+    "di_raw": 0.96206871047616
+  },
+  {
+    "drug": "U-99194",
+    "target": "DRD3",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.1533214591754561,
+    "di_raw": 0.9885674696415663
+  },
+  {
+    "drug": "UBP-302",
+    "target": "GRIK1",
+    "expression_breadth": 0.005273566249176005,
+    "di_corrected": 1.131574221326508,
+    "di_raw": 0.9732786454260349
+  },
+  {
+    "drug": "urapidil",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.136809348135405,
+    "di_raw": 0.934075154364109
+  },
+  {
+    "drug": "valsartan",
+    "target": "AGTR1",
+    "expression_breadth": 0.047462096242584045,
+    "di_corrected": 1.1301780876768015,
+    "di_raw": 0.967217855155468
+  },
+  {
+    "drug": "vanoxerine",
+    "target": "SLC6A3",
+    "expression_breadth": 0.017139090309822018,
+    "di_corrected": 1.109420468903444,
+    "di_raw": 0.8703280091285706
+  },
+  {
+    "drug": "vecuronium",
+    "target": "CHRNA2",
+    "expression_breadth": 0.004614370468029005,
+    "di_corrected": 1.1248223557241546,
+    "di_raw": 0.9671659357845783
+  },
+  {
+    "drug": "VER-155008",
+    "target": "HSPA1A",
+    "expression_breadth": 0.8213579433091628,
+    "di_corrected": 1.1006962268350386,
+    "di_raw": 0.9098053500056267
+  },
+  {
+    "drug": "vesamicol",
+    "target": "SLC18A3",
+    "expression_breadth": 0.024390243902439025,
+    "di_corrected": 1.1399844874234883,
+    "di_raw": 0.9644405394792557
+  },
+  {
+    "drug": "vicriviroc",
+    "target": "CCR5",
+    "expression_breadth": 0.01054713249835201,
+    "di_corrected": 1.1635835922882882,
+    "di_raw": 0.9561207666993141
+  },
+  {
+    "drug": "vidarabine",
+    "target": "ADA",
+    "expression_breadth": 0.8114700065919578,
+    "di_corrected": 1.0894796227686756,
+    "di_raw": 0.9442986473441124
+  },
+  {
+    "drug": "warfarin",
+    "target": "VKORC1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1252847687401872,
+    "di_raw": 0.9650864452123642
+  },
+  {
+    "drug": "WAY-161503",
+    "target": "HTR2C",
+    "expression_breadth": 0.01054713249835201,
+    "di_corrected": 1.149864857904488,
+    "di_raw": 0.9448684453964233
+  },
+  {
+    "drug": "WAY-170523",
+    "target": "MMP13",
+    "expression_breadth": 0.07580751483190508,
+    "di_corrected": 1.0885777378172792,
+    "di_raw": 0.830551341176033
+  },
+  {
+    "drug": "WAY-213613",
+    "target": "SLC1A2",
+    "expression_breadth": 0.035596572181938034,
+    "di_corrected": 1.2321992969292344,
+    "di_raw": 0.9390777423977852
+  },
+  {
+    "drug": "WAY-629",
+    "target": "HTR2C",
+    "expression_breadth": 0.01054713249835201,
+    "di_corrected": 1.127613328570469,
+    "di_raw": 0.9687729682773352
+  },
+  {
+    "drug": "wiskostatin",
+    "target": "WASL",
+    "expression_breadth": 0.924851680949242,
+    "di_corrected": 1.0637138009652949,
+    "di_raw": 0.8762022629380226
+  },
+  {
+    "drug": "WYE-125132",
+    "target": "MTOR",
+    "expression_breadth": 1.0,
+    "di_corrected": 0.9224725540259449,
+    "di_raw": 0.7038131356239319
+  },
+  {
+    "drug": "WYE-354",
+    "target": "MTOR",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.0573906455807447,
+    "di_raw": 0.8409493863582611
+  },
+  {
+    "drug": "WZ-3146",
+    "target": "EGFR",
+    "expression_breadth": 0.6651285431773236,
+    "di_corrected": 1.0774547517865352,
+    "di_raw": 0.8715210109949112
+  },
+  {
+    "drug": "xaliproden",
+    "target": "HTR1A",
+    "expression_breadth": 0.001977587343441002,
+    "di_corrected": 1.13437405372883,
+    "di_raw": 0.9488585665822029
+  },
+  {
+    "drug": "Y-26763",
+    "target": "KCNJ8",
+    "expression_breadth": 0.07317073170731707,
+    "di_corrected": 1.1564191078596116,
+    "di_raw": 0.9378971084952354
+  },
+  {
+    "drug": "Y-27152",
+    "target": "KCNJ8",
+    "expression_breadth": 0.07317073170731707,
+    "di_corrected": 1.1333450941973666,
+    "di_raw": 0.9702313616871834
+  },
+  {
+    "drug": "YM-155",
+    "target": "BIRC5",
+    "expression_breadth": 0.996704021094265,
+    "di_corrected": 1.115175627393747,
+    "di_raw": 0.8254886716604233
+  },
+  {
+    "drug": "YM-298198",
+    "target": "GRM1",
+    "expression_breadth": 0.003955174686882004,
+    "di_corrected": 1.091623029490031,
+    "di_raw": 0.9125036001205444
+  },
+  {
+    "drug": "YM-976",
+    "target": "PDE4A",
+    "expression_breadth": 0.3691496374423204,
+    "di_corrected": 1.1310647691911004,
+    "di_raw": 0.9615584537386894
+  },
+  {
+    "drug": "zaldaride",
+    "target": "CALM1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1340338942087227,
+    "di_raw": 0.963009424507618
+  },
+  {
+    "drug": "zamifenacin",
+    "target": "CHRM3",
+    "expression_breadth": 0.06328279499011207,
+    "di_corrected": 1.1669584888597253,
+    "di_raw": 0.9700697995722294
+  },
+  {
+    "drug": "zardaverine",
+    "target": "PDE4D",
+    "expression_breadth": 0.4126565589980224,
+    "di_corrected": 1.0979602343761614,
+    "di_raw": 0.9171075820922852
+  },
+  {
+    "drug": "ZD-2079",
+    "target": "ADRB3",
+    "expression_breadth": 0.00988793671720501,
+    "di_corrected": 1.1686685357792015,
+    "di_raw": 0.9834452271461487
+  },
+  {
+    "drug": "ZD-7114",
+    "target": "ADRB3",
+    "expression_breadth": 0.00988793671720501,
+    "di_corrected": 1.1482721750358729,
+    "di_raw": 0.9409757591784
+  },
+  {
+    "drug": "ZD-7155",
+    "target": "AGTR1",
+    "expression_breadth": 0.047462096242584045,
+    "di_corrected": 1.084690587069393,
+    "di_raw": 0.9321333467960358
+  },
+  {
+    "drug": "zibotentan",
+    "target": "EDNRA",
+    "expression_breadth": 0.07514831905075807,
+    "di_corrected": 1.1435549964608378,
+    "di_raw": 0.963543962687254
+  },
+  {
+    "drug": "zidovudine",
+    "target": "TERT",
+    "expression_breadth": 0.2030323005932762,
+    "di_corrected": 1.1089941529434746,
+    "di_raw": 0.955603402107954
+  },
+  {
+    "drug": "zileuton",
+    "target": "ALOX5",
+    "expression_breadth": 0.22148978246539222,
+    "di_corrected": 1.1396662159401814,
+    "di_raw": 0.946843758225441
+  },
+  {
+    "drug": "ZM-323881",
+    "target": "KDR",
+    "expression_breadth": 0.04482531311799604,
+    "di_corrected": 1.1162164364360034,
+    "di_raw": 0.9485984407365322
+  },
+  {
+    "drug": "1,2,3,4,5,6-hexabromocyclohexane",
+    "target": "JAK2",
+    "expression_breadth": 0.17996044825313118,
+    "di_corrected": 1.1146604416151533,
+    "di_raw": 0.948692362755537
+  },
+  {
+    "drug": "10-DEBC",
+    "target": "PIM1",
+    "expression_breadth": 0.8892551087673038,
+    "di_corrected": 1.1129066378346835,
+    "di_raw": 0.9341732412576675
+  },
+  {
+    "drug": "10-hydroxycamptothecin",
+    "target": "TOP1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.130035163155859,
+    "di_raw": 0.951359286904335
+  },
+  {
+    "drug": "16,16-dimethylprostaglandin-e2",
+    "target": "HPGD",
+    "expression_breadth": 0.26104152933421226,
+    "di_corrected": 1.087513749790789,
+    "di_raw": 0.8895840719342232
+  },
+  {
+    "drug": "3-amino-benzamide",
+    "target": "PARP1",
+    "expression_breadth": 1.0,
+    "di_corrected": 1.1061645288753246,
+    "di_raw": 0.9361958354711533
+  },
+  {
+    "drug": "3-methyl-GABA",
+    "target": "ABAT",
+    "expression_breadth": 0.2940013183915623,
+    "di_corrected": 1.0776759292454572,
+    "di_raw": 0.8903316780924797
+  },
+  {
+    "drug": "4-carboxy-3-hydroxyphenylglycine-(RS)",
+    "target": "GRM1",
+    "expression_breadth": 0.003955174686882004,
+    "di_corrected": 1.1273282512329885,
+    "di_raw": 0.9492029957473278
+  },
+  {
+    "drug": "4-iodo-6-phenylpyrimidine",
+    "target": "MIF",
+    "expression_breadth": 0.991430454845089,
+    "di_corrected": 1.0923856079949752,
+    "di_raw": 0.9254544600844383
+  },
+  {
+    "drug": "5-aminolevulinic-acid",
+    "target": "ALAD",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 1.1519274881337116,
+    "di_raw": 0.948005598038435
+  },
+  {
+    "drug": "5-FP",
+    "target": "TYMS",
+    "expression_breadth": 0.998022412656559,
+    "di_corrected": 1.1221014207546829,
+    "di_raw": 0.9587585628032684
+  },
+  {
+    "drug": "7-hydroxy-PIPAT",
+    "target": "DRD3",
+    "expression_breadth": 0.0,
+    "di_corrected": 1.159650308761033,
+    "di_raw": 0.9859079783782363
+  }
+]

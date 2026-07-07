@@ -1,0 +1,38 @@
+{
+  "test6": {
+    "test": "moa_classification",
+    "n_drugs": 664,
+    "n_classes": 23,
+    "k": 5,
+    "accuracy": 0.060240963855421686,
+    "baseline_accuracy": 0.08885542168674698,
+    "perm_mean": 0.0484487951807229,
+    "perm_std": 0.010588656108842118,
+    "p_value": 0.153,
+    "class_sizes": {
+      "HDAC inhibitor": 19,
+      "dopamine receptor antagonist": 59,
+      "estrogen receptor agonist": 17,
+      "topoisomerase inhibitor": 15,
+      "cyclooxygenase inhibitor": 53,
+      "acetylcholine receptor antagonist": 35,
+      "sodium channel blocker": 21,
+      "adrenergic receptor antagonist": 52,
+      "calcium channel blocker": 24,
+      "dopamine receptor agonist": 22,
+      "acetylcholine receptor agonist": 16,
+      "phosphodiesterase inhibitor": 27,
+      "tubulin polymerization inhibitor": 16,
+      "adrenergic receptor agonist": 40,
+      "serotonin receptor antagonist": 40,
+      "serotonin receptor agonist": 31,
+      "glutamate receptor antagonist": 31,
+      "bacterial cell wall synthesis inhibitor": 22,
+      "histamine receptor antagonist": 39,
+      "EGFR inhibitor": 23,
+      "glucocorticoid receptor agonist": 31,
+      "CDK inhibitor": 16,
+      "monoamine oxidase inhibitor": 15
+    }
+  }
+}

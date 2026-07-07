@@ -1,0 +1,650 @@
+[
+  {
+    "drug": "3-matida",
+    "di_corrected": 1.1325693575609073,
+    "di_raw": 0.9746641889214516,
+    "viability_cv": 3.330186155863489,
+    "mean_lfc": -0.1373770482507158,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "3-methyl-GABA",
+    "di_corrected": 1.0776759292454572,
+    "di_raw": 0.8903316780924797,
+    "viability_cv": 3.3660141702757387,
+    "mean_lfc": -0.2278892421241512,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "AZ-628",
+    "di_corrected": 1.0704599926007545,
+    "di_raw": 0.8872852846980095,
+    "viability_cv": 1.0016026763765056,
+    "mean_lfc": -1.3312130836786382,
+    "n_prism_cells": 1818
+  },
+  {
+    "drug": "BMS-182874",
+    "di_corrected": 1.115060085289353,
+    "di_raw": 0.9522786661982536,
+    "viability_cv": 4.471192782546809,
+    "mean_lfc": -0.1357868561639039,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "BMS-536924",
+    "di_corrected": 1.0674829648607094,
+    "di_raw": 0.8356746137142181,
+    "viability_cv": 0.8450950129402778,
+    "mean_lfc": -1.387869484378744,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "BW-B70C",
+    "di_corrected": 1.1225443958801469,
+    "di_raw": 0.9418949708342552,
+    "viability_cv": 3.2237288745866604,
+    "mean_lfc": -0.1879216690170358,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "BX-795",
+    "di_corrected": 1.0628576092438053,
+    "di_raw": 0.8126209378242493,
+    "viability_cv": 0.8428528916378709,
+    "mean_lfc": -1.392715815139708,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "CP-94253",
+    "di_corrected": 1.1348674116363304,
+    "di_raw": 0.9419318474829197,
+    "viability_cv": 10.968970602336872,
+    "mean_lfc": -0.0445556831115147,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "D-609",
+    "di_corrected": 1.1354005193917567,
+    "di_raw": 0.9788537975400686,
+    "viability_cv": 10.210432740755268,
+    "mean_lfc": -0.0467318629063572,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "DH-97",
+    "di_corrected": 1.161220216000903,
+    "di_raw": 0.9897116534411907,
+    "viability_cv": 4.853555977796216,
+    "mean_lfc": -0.102982847808626,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "DR-2313",
+    "di_corrected": 1.1186872259388503,
+    "di_raw": 0.9253496155142784,
+    "viability_cv": 3.9215073649369834,
+    "mean_lfc": -0.1079843899782047,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "GANT-61",
+    "di_corrected": 1.086202359128742,
+    "di_raw": 0.9039442092180252,
+    "viability_cv": 3.176802450549176,
+    "mean_lfc": -0.1520981031054831,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "GSK-2334470",
+    "di_corrected": 1.1153759325006931,
+    "di_raw": 0.9480007141828537,
+    "viability_cv": 0.9561184331821608,
+    "mean_lfc": -0.7392430456339362,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "JTE-013",
+    "di_corrected": 1.1576523395608878,
+    "di_raw": 0.9541887678205967,
+    "viability_cv": 18.109444757163786,
+    "mean_lfc": -0.026167108171885,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "L-689560",
+    "di_corrected": 1.1537470782092676,
+    "di_raw": 0.9768560975790024,
+    "viability_cv": 4.566270222956611,
+    "mean_lfc": -0.0891447546511184,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "L-694247",
+    "di_corrected": 1.1537095971124338,
+    "di_raw": 0.9670030400156975,
+    "viability_cv": 4.849166872190767,
+    "mean_lfc": -0.0884014945954381,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "L-755507",
+    "di_corrected": 1.113302524863494,
+    "di_raw": 0.9448570236563683,
+    "viability_cv": 2.001535192864333,
+    "mean_lfc": -0.2358435549718993,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "LDN-193189",
+    "di_corrected": 1.1386063107877924,
+    "di_raw": 0.746148020029068,
+    "viability_cv": 0.3986653533132272,
+    "mean_lfc": -5.507274790468049,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "LY-288513",
+    "di_corrected": 1.1184310883513962,
+    "di_raw": 0.9627471938729286,
+    "viability_cv": 4.365527939346373,
+    "mean_lfc": -0.1119190072664649,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "MRS-1334",
+    "di_corrected": 1.1462451374935463,
+    "di_raw": 0.9640781879425049,
+    "viability_cv": 24.338132218131083,
+    "mean_lfc": -0.0183247980525815,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "Merck60",
+    "di_corrected": 1.109732654352447,
+    "di_raw": 0.9623008742928505,
+    "viability_cv": 0.9598390398451576,
+    "mean_lfc": -1.7738392136527723,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "NAS-181",
+    "di_corrected": 1.1283169208177104,
+    "di_raw": 0.970236649736762,
+    "viability_cv": 22.70062655140059,
+    "mean_lfc": 0.0224164207555227,
+    "n_prism_cells": 917
+  },
+  {
+    "drug": "NFKB-activation-inhibitor-II",
+    "di_corrected": 1.1173074613546337,
+    "di_raw": 0.9359562546014786,
+    "viability_cv": 8.700008511590669,
+    "mean_lfc": -0.0541909246019825,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "PCO-400",
+    "di_corrected": 1.1217389670767677,
+    "di_raw": 0.9574621319770813,
+    "viability_cv": 8.716241470465738,
+    "mean_lfc": -0.0506466945032049,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "PF-750",
+    "di_corrected": 1.1252909326397735,
+    "di_raw": 0.8838281631469727,
+    "viability_cv": 13.343136668680026,
+    "mean_lfc": 0.0360096542299812,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "SIB-1893",
+    "di_corrected": 1.0609395900835938,
+    "di_raw": 0.813588336110115,
+    "viability_cv": 2.984017814720542,
+    "mean_lfc": -0.1678175400571346,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "STAT3-inhibitor-VI",
+    "di_corrected": 1.1429505280374446,
+    "di_raw": 0.9408352822065353,
+    "viability_cv": 35.659661668952985,
+    "mean_lfc": 0.0129853733110745,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "UK-356618",
+    "di_corrected": 1.1015631301301612,
+    "di_raw": 0.9001339673995972,
+    "viability_cv": 2.0969287272878674,
+    "mean_lfc": -0.2446930007806288,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "VER-155008",
+    "di_corrected": 1.1006962268350386,
+    "di_raw": 0.9098053500056267,
+    "viability_cv": 1.0741851359130967,
+    "mean_lfc": -0.5896003490003363,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "WAY-629",
+    "di_corrected": 1.127613328570469,
+    "di_raw": 0.9687729682773352,
+    "viability_cv": 1.7407750417212906,
+    "mean_lfc": -0.2798755908070021,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "WH-4023",
+    "di_corrected": 1.1303683436720926,
+    "di_raw": 0.9499731101095676,
+    "viability_cv": 4.099670135118808,
+    "mean_lfc": -0.1405082901654558,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "XMD-892",
+    "di_corrected": 1.0808235996806195,
+    "di_raw": 0.8819491490721703,
+    "viability_cv": 7.944879222922085,
+    "mean_lfc": -0.0930188310190948,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "YC-1",
+    "di_corrected": 1.1455797079577512,
+    "di_raw": 0.9382776468992233,
+    "viability_cv": 2.031438830272216,
+    "mean_lfc": -0.8753601084796884,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "YM-298198",
+    "di_corrected": 1.091623029490031,
+    "di_raw": 0.9125036001205444,
+    "viability_cv": 5.344445415978922,
+    "mean_lfc": -0.1038424013043514,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "YM-90709",
+    "di_corrected": 1.1319250524518751,
+    "di_raw": 0.9467250555753708,
+    "viability_cv": 2.1619570732711195,
+    "mean_lfc": -0.2001741046586942,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "ZM-39923",
+    "di_corrected": 1.1727227836712575,
+    "di_raw": 0.9732451736927032,
+    "viability_cv": 1.3109992795800065,
+    "mean_lfc": -0.3952595004618537,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "atorvastatin",
+    "di_corrected": 1.1424236618359214,
+    "di_raw": 0.9335149675607681,
+    "viability_cv": 10.08402633965384,
+    "mean_lfc": -0.0591609082599734,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "benactyzine",
+    "di_corrected": 1.1710319336244797,
+    "di_raw": 0.9357091411948204,
+    "viability_cv": 5.113812095855479,
+    "mean_lfc": 0.0875577245854411,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "butabindide",
+    "di_corrected": 1.1452153522534134,
+    "di_raw": 0.9658196903765202,
+    "viability_cv": 3.40866913238925,
+    "mean_lfc": 0.1331886448413057,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "cefazolin",
+    "di_corrected": 1.0816001076321342,
+    "di_raw": 0.9370463117957115,
+    "viability_cv": 5.075881608259642,
+    "mean_lfc": 0.0885115996427391,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "cefotaxime",
+    "di_corrected": 1.0275088528226424,
+    "di_raw": 0.8397646695375443,
+    "viability_cv": 10.548518472614468,
+    "mean_lfc": -0.0441541305248467,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "chlortetracycline",
+    "di_corrected": 1.1297202565739062,
+    "di_raw": 0.9675768576562405,
+    "viability_cv": 5.831682195366714,
+    "mean_lfc": 0.0721694077737381,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "cinchonine",
+    "di_corrected": 1.118084295678802,
+    "di_raw": 0.9513694196939468,
+    "viability_cv": 6.130457324979355,
+    "mean_lfc": 0.0760537106947172,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "cyclopamine",
+    "di_corrected": 1.1647460288925608,
+    "di_raw": 0.9573041647672653,
+    "viability_cv": 6.238433998992628,
+    "mean_lfc": -0.0884086344456403,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "demeclocycline",
+    "di_corrected": 1.1209797106921306,
+    "di_raw": 0.9650774076581001,
+    "viability_cv": 26.31477219404892,
+    "mean_lfc": -0.016097408184846,
+    "n_prism_cells": 917
+  },
+  {
+    "drug": "devazepide",
+    "di_corrected": 1.0901116821601504,
+    "di_raw": 0.8626594245433807,
+    "viability_cv": 4.295097468325344,
+    "mean_lfc": -0.1090389619581143,
+    "n_prism_cells": 917
+  },
+  {
+    "drug": "dihydrexidine",
+    "di_corrected": 1.1437248273488474,
+    "di_raw": 0.9534350857138634,
+    "viability_cv": 31.957449229044908,
+    "mean_lfc": 0.0155280073172862,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "dihydroxyphenylglycine",
+    "di_corrected": 1.1328210983698903,
+    "di_raw": 0.9452018067240715,
+    "viability_cv": 3.238959757065076,
+    "mean_lfc": -0.1473754612787569,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "dorsomorphin",
+    "di_corrected": 1.1030143085488682,
+    "di_raw": 0.7625387609004974,
+    "viability_cv": 3.3790151426852053,
+    "mean_lfc": -0.1471621056521146,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "esomeprazole",
+    "di_corrected": 1.0934055442503565,
+    "di_raw": 0.9297366365790367,
+    "viability_cv": 3.639598899710743,
+    "mean_lfc": -0.1554916063128211,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "fludrocortisone-acetate",
+    "di_corrected": 1.0830468451658322,
+    "di_raw": 0.8624496608972549,
+    "viability_cv": 5.438152157072292,
+    "mean_lfc": -0.1375833857073424,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "fumonisin-b1",
+    "di_corrected": 1.1172523432439265,
+    "di_raw": 0.9489542357623577,
+    "viability_cv": 2.098507532206256,
+    "mean_lfc": 0.2023520955283053,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "geldanamycin",
+    "di_corrected": 1.0711755293551999,
+    "di_raw": 0.7933934479951859,
+    "viability_cv": 0.3484772209323234,
+    "mean_lfc": -5.402591082400434,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "imatinib",
+    "di_corrected": 1.1479141546009106,
+    "di_raw": 0.9666890427470207,
+    "viability_cv": 5.713784757156954,
+    "mean_lfc": -0.0881935197463323,
+    "n_prism_cells": 921
+  },
+  {
+    "drug": "ingenol",
+    "di_corrected": 1.0826550719734693,
+    "di_raw": 0.7810346335172653,
+    "viability_cv": 25.52609311319772,
+    "mean_lfc": 0.0190115647543232,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "levcromakalim",
+    "di_corrected": 1.133544591685417,
+    "di_raw": 0.9773456007242203,
+    "viability_cv": 3.006286295744063,
+    "mean_lfc": -0.1533104223989692,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "losartan",
+    "di_corrected": 1.1425521740181508,
+    "di_raw": 0.9655294083058834,
+    "viability_cv": 5.112116993004634,
+    "mean_lfc": -0.0772467112059542,
+    "n_prism_cells": 917
+  },
+  {
+    "drug": "luzindole",
+    "di_corrected": 1.1695191743414384,
+    "di_raw": 0.9785772208124399,
+    "viability_cv": 18.477257402008046,
+    "mean_lfc": -0.0278701897561695,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "lylamine",
+    "di_corrected": 1.1748841798369745,
+    "di_raw": 0.8210730254650116,
+    "viability_cv": 1.8470266068231689,
+    "mean_lfc": -0.5117480547217326,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "megestrol",
+    "di_corrected": 1.1041043605065932,
+    "di_raw": 0.9191345348954201,
+    "viability_cv": 3.8731740867326576,
+    "mean_lfc": -0.1149698660308081,
+    "n_prism_cells": 917
+  },
+  {
+    "drug": "methantheline",
+    "di_corrected": 1.0689179508292264,
+    "di_raw": 0.9085325822234154,
+    "viability_cv": 14.668960670785248,
+    "mean_lfc": -0.0293959680252214,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "methysergide",
+    "di_corrected": 1.1123245580370695,
+    "di_raw": 0.9591230563819408,
+    "viability_cv": 9.267040685987771,
+    "mean_lfc": 0.0496495032613543,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "mirin",
+    "di_corrected": 1.1186094378573164,
+    "di_raw": 0.9247400090098381,
+    "viability_cv": 2.375168752088204,
+    "mean_lfc": -0.1815735757718938,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "neurodazine",
+    "di_corrected": 1.0874502643288086,
+    "di_raw": 0.8945343121886253,
+    "viability_cv": 2.7214961334472325,
+    "mean_lfc": -0.1775289808682144,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "nifedipine",
+    "di_corrected": 1.132173735193278,
+    "di_raw": 0.9342033714056015,
+    "viability_cv": 1.7394303065356276,
+    "mean_lfc": -0.2747813751623439,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "nisoldipine",
+    "di_corrected": 1.1205430000979242,
+    "di_raw": 0.8726023286581039,
+    "viability_cv": 1.2010607086755498,
+    "mean_lfc": -0.4898176582412421,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "pantoprazole",
+    "di_corrected": 1.0970195256240858,
+    "di_raw": 0.9365757033228874,
+    "viability_cv": 2.166745681160042,
+    "mean_lfc": 0.1839481354771934,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "pitavastatin",
+    "di_corrected": 1.045671222422132,
+    "di_raw": 0.7151881754398346,
+    "viability_cv": 1.0231886598919109,
+    "mean_lfc": -2.219880707558206,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "reversine",
+    "di_corrected": 1.0763899171005442,
+    "di_raw": 0.8942391946911812,
+    "viability_cv": 0.7366591130142468,
+    "mean_lfc": -1.821641278494792,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "rosuvastatin",
+    "di_corrected": 1.1254025296487749,
+    "di_raw": 0.9274114742875099,
+    "viability_cv": 6.115668219058382,
+    "mean_lfc": -0.085618994959139,
+    "n_prism_cells": 917
+  },
+  {
+    "drug": "temefos",
+    "di_corrected": 1.1712289027759468,
+    "di_raw": 0.9858205057680607,
+    "viability_cv": 5.681018172857146,
+    "mean_lfc": 0.1224003925951359,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "tetracycline",
+    "di_corrected": 1.0760000342605622,
+    "di_raw": 0.9478746056556702,
+    "viability_cv": 18.95741977187977,
+    "mean_lfc": -0.0210842007038935,
+    "n_prism_cells": 917
+  },
+  {
+    "drug": "thiotepa",
+    "di_corrected": 1.1289069150905195,
+    "di_raw": 0.926428847014904,
+    "viability_cv": 4.360440462828685,
+    "mean_lfc": -0.1181758150498572,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "tigecycline",
+    "di_corrected": 1.0581074456292305,
+    "di_raw": 0.9048808217048645,
+    "viability_cv": 3.1864685208646404,
+    "mean_lfc": -0.134681641156548,
+    "n_prism_cells": 917
+  },
+  {
+    "drug": "treprostinil",
+    "di_corrected": 1.1177191527263097,
+    "di_raw": 0.9411821104586124,
+    "viability_cv": 40.30688874144908,
+    "mean_lfc": -0.0120272785310103,
+    "n_prism_cells": 911
+  },
+  {
+    "drug": "tretinoin",
+    "di_corrected": 1.132564916431443,
+    "di_raw": 0.9315401390194893,
+    "viability_cv": 1.5569555461738684,
+    "mean_lfc": -0.3996552551441145,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "tyrphostin-AG-825",
+    "di_corrected": 1.1659875853530686,
+    "di_raw": 0.9398474209010601,
+    "viability_cv": 4.794367628087887,
+    "mean_lfc": -0.1046119080939656,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "wiskostatin",
+    "di_corrected": 1.0637138009652949,
+    "di_raw": 0.8762022629380226,
+    "viability_cv": 3.3849139396968964,
+    "mean_lfc": -0.1432470951096811,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "wortmannin",
+    "di_corrected": 1.0862587101313967,
+    "di_raw": 0.8188895732164383,
+    "viability_cv": 0.9936546836758352,
+    "mean_lfc": -0.8863896481055707,
+    "n_prism_cells": 916
+  },
+  {
+    "drug": "zebularine",
+    "di_corrected": 1.1305472923489424,
+    "di_raw": 0.9548188857734203,
+    "viability_cv": 5.429836367996559,
+    "mean_lfc": -0.0840917571177212,
+    "n_prism_cells": 914
+  },
+  {
+    "drug": "zileuton",
+    "di_corrected": 1.1396662159401814,
+    "di_raw": 0.946843758225441,
+    "viability_cv": 3.491684378348302,
+    "mean_lfc": 0.1355403276716613,
+    "n_prism_cells": 911
+  }
+]
