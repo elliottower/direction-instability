@@ -1,7 +1,7 @@
 # Pre-Registration: Cross-Dataset DI Replication
 
 **Date:** 2026-07-06
-**Author:** Elliot Tower
+**Author:** [Anonymous]
 **Status:** Frozen before analysis
 
 ## Hypothesis

@@ -22,7 +22,7 @@ reproducible effects across contexts.
 Abundance-modulating drugs (degraders, expression modulators) will
 show lower direction instability than receptor blockers, allosteric
 modulators, and pleiotropic compounds. This mirrors the MR
-abundance/activity boundary (Tower, 2026).
+abundance/activity boundary (Anonymous, 2026).
 
 ### H3: Top-gene consistency tracks direction stability
 Gene-level Jaccard overlap of top up/down-regulated genes correlates
