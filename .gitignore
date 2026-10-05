@@ -52,3 +52,32 @@ COVER_LETTER*
 fee_waiver*
 fee-waiver*
 *_submission.zip
+
+# paper build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+
+# private correspondence with journals, never tracked
+paper/cover_letter*
+paper/fee_assistance_letter*
+
+# superseded drafts, as the atlas repo does
+paper/drug_transport_bioinformatics_v4.*
+paper/drug_transport_bioinformatics_v5.*
+paper/drug_transport_bioinformatics_v6.*
+
+# submission bundles and tool output, never tracked
+paper/*.zip
+paper/*.resolved.yaml
+paper/untitled*
+paper/drug_transport_tmlr_submission_*
+paper/drug_transport_plos_v2.*
+paper/drug_transport_plos_v3.*
+paper/direction-instability*
