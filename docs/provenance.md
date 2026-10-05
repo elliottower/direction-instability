@@ -91,8 +91,10 @@ list read as confirmation.
 
 ## What to do
 
-1. Fix the three extraction sites with a `reindex` onto the requested order, and
-   assert the order afterwards.
+1. ~~Fix the three extraction sites~~ **done 2026-10-05**: each parse now reindexes
+   onto the requested order and asserts that the order holds, so a future extraction
+   cannot repeat this. The artifacts already written are unchanged and still carry
+   the defect.
 2. Do not regenerate the `.npz` in place. Write a corrected derivative with
    truthful `gene_ids`, recording the parent hash, the source GCTX hash, the
    permutation and its hash, and an all-cohort comparison against the source.

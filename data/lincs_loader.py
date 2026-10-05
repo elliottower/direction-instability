@@ -181,6 +181,13 @@ def _load_from_gctx(
 
     cids = sig_rows["sig_id"].tolist()
     gctoo = parse.parse(str(gctx_path), cid=cids, rid=gene_ids)
+    if gene_ids is not None:
+        # rid= selects rows, it does not order them: without this the values come
+        # back in the file's order and are labeled with the requested one
+        gctoo.data_df.index = gctoo.data_df.index.astype(str)
+        gctoo.data_df = gctoo.data_df.reindex(index=[str(g) for g in gene_ids])
+        if gctoo.data_df.isna().any().any():
+            raise ValueError("a requested gene is missing from the parse")
 
     result = {}
     for _, row in sig_rows.iterrows():

@@ -76,8 +76,14 @@ def extract_shrna():
         batch_ids = target_sig_ids[i:i + batch_size]
         try:
             gctoo = parse.parse(str(gctx_path), cid=batch_ids, rid=landmark_genes)
-            all_data.append(gctoo.data_df.values.T)
-            all_ids.extend(gctoo.data_df.columns.tolist())
+            # rid= selects rows, it does not order them
+            frame = gctoo.data_df
+            frame.index = frame.index.astype(str)
+            frame = frame.reindex(index=landmark_genes)
+            assert not frame.isna().any().any(), "a landmark gene is missing from the parse"
+            assert list(frame.index) == landmark_genes, "reindex did not produce the frozen order"
+            all_data.append(frame.values.T)
+            all_ids.extend(frame.columns.tolist())
         except Exception as e:
             print(f"  Warning: batch {i} failed: {e}")
             continue
