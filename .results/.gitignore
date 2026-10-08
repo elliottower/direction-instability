@@ -1,0 +1,7 @@
+# Commit ledger.jsonl and ledger.head: a record is evidence once it is in history.
+# Everything in the ledger becomes public with the repository, notes included.
+
+# Lock sidecars. They hold nothing; the kernel releases a lock when its holder exits.
+*.lock
+*.provenance-lock
+*.provenance-tmp
